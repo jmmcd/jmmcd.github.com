@@ -1,1 +1,18 @@
-My GitHub Page
+---
+layout: default
+title: James McDermott
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Other stuff</h1>
+  <ul class="posts">
+    <li><span>Thu Jan 12 21:24:16 2012</span> &raquo; <a href="http://www.skynet.ie/~jmmcd">Homepage</a></li>
+  </ul>
+</div>
