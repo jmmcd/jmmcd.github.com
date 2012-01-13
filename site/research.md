@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research
-permalink: research
+permalink: /research.html
 ---
 
 
