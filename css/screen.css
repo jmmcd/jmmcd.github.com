@@ -92,7 +92,7 @@ border: solid 1px #fff;
 
 h1 {
 color:#0383c9;
-font-size:4.7em;
+font-size:3.7em;
 letter-spacing:-5px;
 margin:0 0 30px 0px;
 padding:50px 0 50px 0;;
@@ -145,13 +145,13 @@ dark-orange #e39c1f
 */
 
 h2 {
-border-bottom:1px solid #e5e5e5;
+border-bottom:1px solid #a5a5a5;
 color:#0383c9;
-font-size:1.7em;
+font-size:2.0em;
 font-weight:100;
 letter-spacing:-1px;
-margin:0 0 10px;
-padding:0px 2px 4px 5px;
+margin:10px 0 20px 0;
+padding:20px 0px 5px 0px;
 }
 
 .post_title {
@@ -194,6 +194,10 @@ text-align:right;
 
 #toplinks a {
 color:gray;
+}
+
+div#related {
+margin:10em 0 0 0;
 }
 
 div.slogan {
