@@ -1,7 +1,7 @@
 body {
 background: #373737;
-color:#e5e5e5;
-font:86% 'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+color:#d5d5d5;
+font:100% 'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
 line-height:1.2em;
 width: 750px;
 margin:0 auto;
@@ -11,7 +11,7 @@ padding:0;
 label { margin-left:5px; }
 
 a {
-color:#0383c9;
+color:#2393d9;
 font-weight:700;
 text-decoration:none;
 }
@@ -39,7 +39,7 @@ margin:4px 0 4px 10px;
 
 .posts { padding:0;}
 
-li { padding:0 4px; color:#ccc; list-style: none; }
+li { padding:0 4px; list-style: square; list-style-position: inside;}
 
 ul.posts li span { float:right; font-family:monofur, monaco, courier; color:#888; }
 ul.posts li a { font-weight:200;}
@@ -62,12 +62,15 @@ blockquote span {
 
 pre { 
 font-family: Monaco, Courier;
-background: #191919;
-border: dashed 2px #e5e5e5;
 padding: 5px;
-pre:1000px;
-font-size:1.2em;
 clear:both;
+color:#bbb;
+border-left:4px solid #0383c9;
+}
+
+code {
+font-family: Monaco, Courier;
+color:#bbb;
 }
 
 .scoot { margin:5px 5px 5px 0px; }
@@ -130,7 +133,7 @@ h1 a:hover { color:#fba919 ;}
 
 
 a.green:hover { border: solid 2px #23af4c; padding:1px; text-decoration:none;  }
-a.blue:hover { color:#212121; background-color:#0383c9;text-decoration:none; }
+a.blue:hover { border: solid 2px #0383c9; padding:1px; text-decoration:none; }
 a.orange:hover { color:#fba919;  padding:1px; border: solid 2px #fba919; text-decoration:none; }
 .slogan a { padding:3px; line-height: 2.5em; }
 
@@ -162,7 +165,7 @@ padding-bottom: 6px;
 
 h3 {
 border-bottom:1px solid #e5e5e5;
-color:#fba919;
+color:#0383c9;
 font-size:1.4em;
 font-weight: 100;
 margin:10px 0 8px;
@@ -170,7 +173,7 @@ padding:1px 2px 2px 3px;
 }
 
 h4 {
-color: #23af4c;
+color: #0383c9;
 }
 /*** Main wrap and header ***/
 
@@ -178,7 +181,6 @@ color: #23af4c;
 color:#f4f4f4;
 margin:10px auto;
 padding:0;
-width:670px;
 }
 
 #header {
@@ -218,7 +220,6 @@ line-height:1.5em;
 margin:0;
 padding:0;
 text-align:left;
-width:500px;
 }
 
 #contentalt {
@@ -227,7 +228,6 @@ line-height:1.5em;
 margin-right:20px;
 padding:0;
 text-align:left;
-width:500px;
 }
 
 #content h3,#contentalt h3 {
