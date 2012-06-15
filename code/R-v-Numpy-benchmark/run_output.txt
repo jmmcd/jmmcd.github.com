@@ -1,0 +1,44 @@
+10
+ARGUMENT '10' __ignored__
+
+> cmd_args = commandArgs();
+> n = as.real(cmd_args[4]) # use like this: R --vanilla --silent < tau.r 10 [10 is then arg 4]
+> x <- runif(n*n, 0.0, 1.0)
+> y <- runif(n*n, 0.0, 1.0)
+> system.time(cor.test(x, y, method="kendall"))
+   user  system elapsed 
+  0.004   0.000   0.004 
+> 
+Elapsed time (s): 0.0758628845215
+50
+ARGUMENT '50' __ignored__
+
+> cmd_args = commandArgs();
+> n = as.real(cmd_args[4]) # use like this: R --vanilla --silent < tau.r 10 [10 is then arg 4]
+> x <- runif(n*n, 0.0, 1.0)
+> y <- runif(n*n, 0.0, 1.0)
+> system.time(cor.test(x, y, method="kendall"))
+   user  system elapsed 
+  0.129   0.001   0.138 
+> 
+Elapsed time (s): 2.02346801758
+250
+ARGUMENT '250' __ignored__
+
+> cmd_args = commandArgs();
+> n = as.real(cmd_args[4]) # use like this: R --vanilla --silent < tau.r 10 [10 is then arg 4]
+> x <- runif(n*n, 0.0, 1.0)
+> y <- runif(n*n, 0.0, 1.0)
+> system.time(cor.test(x, y, method="kendall"))
+   user  system elapsed 
+ 76.674   0.076  77.026 
+> 
+Elapsed time (s): 98.040719986
+1250
+ARGUMENT '1250' __ignored__
+
+> cmd_args = commandArgs();
+> n = as.real(cmd_args[4]) # use like this: R --vanilla --silent < tau.r 10 [10 is then arg 4]
+> x <- runif(n*n, 0.0, 1.0)
+> y <- runif(n*n, 0.0, 1.0)
+> system.time(cor.test(x, y, method="kendall"))

@@ -6,7 +6,7 @@ title: First Post
 First Post
 ========
 
-Here's a first post. I'm trying out github pages, which uses Jekyll to
+Here's a first post. I'm trying out Github Pages, which uses Jekyll to
 generate a static site from templates and markdown content.
 
 
@@ -14,8 +14,7 @@ generate a static site from templates and markdown content.
 Some template tests
 -------------------
 
-Python highlighting using braces (formatting is correct, no
-highlighting):
+Python highlighting using braces:
 
 {% highlight python %}
 #!/usr/bin/env python
