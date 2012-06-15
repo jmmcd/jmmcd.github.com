@@ -1,4 +1,4 @@
 pygments: true
-markdown: rdiscount
+markdown: maruku
 # disqus:
 # 	id: twitter.com/bleepbeepbzzz

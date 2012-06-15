@@ -64,8 +64,8 @@ pre {
 font-family: Monaco, Courier;
 padding: 5px;
 clear:both;
-color:#bbb;
 border-left:4px solid #0383c9;
+color:#bbb;
 }
 
 code {
@@ -110,10 +110,10 @@ text-transform:none;
 h1 a:hover { color:#fba919 ;}
 
 #logo {
-	margin: -65px 10px -30px -50px;
+	margin: -115px 0px -30px -50px;
 	float:right;
-	background: url('/images/gems-15.png');
-	height: 213px; width:204px;
+	background: url('/images/james_belfast_head_crop.jpg');
+	height: 106px; width:83px;
 }
 
 .publish_date {
