@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$1" = "x" ]
+if [ "x$1" = "x" ]
 then
 	echo "publishing..."
 	git add . && git commit -m "Publishing." && git push
