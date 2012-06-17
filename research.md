@@ -34,5 +34,3 @@ projects code and information is available elsewhere:
 * [PonyGE](http://ponyge.googlecode.com)
 * [GP Benchmarks](http://groups.csail.mit.edu/EVO-DesignOpt/GPBenchmarks/)
 * [Source for this website](https://github.com/jmmcd/jmmcd.github.com)
-  (some css and layouts copied from
-  [uberduper](http://danhixon.github.com/))
