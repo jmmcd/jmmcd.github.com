@@ -42,3 +42,7 @@ ARGUMENT '1250' __ignored__
 > x <- runif(n*n, 0.0, 1.0)
 > y <- runif(n*n, 0.0, 1.0)
 > system.time(cor.test(x, y, method="kendall"))
+    user   system  elapsed 
+50070.99    63.93 50239.38 
+> 
+Elapsed time (s): 40413.8324389
