@@ -71,6 +71,7 @@ Results
     <tr>
     <td>50*50</td><td>0.138s</td><td>2.023</td>
     </tr>
+    <tr>
     <td>250*250</td><td>77s</td><td>98s</td>
     </tr>
     <tr>
