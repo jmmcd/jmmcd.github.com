@@ -73,7 +73,7 @@ Results
     </tr>
     <td>250*250</td><td>77s</td><td>98s</td>
     </tr>
-    </tr>
+    <tr>
     <td>1250*1250</td><td>50239s</td><td>40414s</td>
     </tr>
 </table>
