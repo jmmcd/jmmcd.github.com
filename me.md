@@ -4,7 +4,7 @@ title: Me
 permalink: /me.html
 ---
 
-<div id="logo"></div>
+<div id="logo">&nbsp;</div>
 
 I'm a researcher in evolutionary computation and computational
 creativity. I write music and write programs that write music.

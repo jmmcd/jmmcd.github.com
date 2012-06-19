@@ -1,7 +1,8 @@
 jmmcd.github.com
 ----------------
 
-This is the source code for my blog/small website on github, where I
+This is the source code for
+[my blog/small website on github](http://jmmcd.github.com), where I
 host some code. It uses Github pages, which uses Jekyll, which uses
 Liquid templating and Markdown. Thanks to
 [uberduper](http://danhixon.github.com/), one of the Github pages

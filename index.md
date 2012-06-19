@@ -7,6 +7,8 @@ permalink: /index.html
 jmmcd: code and blog
 ====================
 
+
+
 <div>
   <h2>Blog Posts</h2>
   <ul class="posts">
