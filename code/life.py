@@ -38,18 +38,18 @@ def advance(board):
     return newstate
 
 def print_board(board):
-    print("-" * (2*size+3)) # print top border
+    print("-" * (3*(size+1))) # print top border
     for x in range(size):
         print("| ", end="") # print left-hand border
         for y in range(size):
             if (x, y) in board:
                 # living cell
-                print("* ", end="")
+                print("*  ", end="")
             else:
                 # dead cell
-                print("  ", end="")
+                print("   ", end="")
         print("|") # print right-hand border
-    print("-" * (2*size+3)) # print bottom border
+    print("-" * (3*(size+1))) # print bottom border
 
 def main():
     glider = set([(0, 0), (1, 0), (2, 0), (0, 1), (1, 2)])
