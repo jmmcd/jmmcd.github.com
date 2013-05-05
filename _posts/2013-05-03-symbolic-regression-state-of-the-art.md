@@ -3,15 +3,15 @@ layout: post
 title: An interesting equivalence between two state-of-the-art symbolic regression systems
 ---
 
-An interesting equivalence between two state-of-the-art symbolic regression systems
+An equivalence between two state-of-the-art symbolic regression systems
 ========
 
 I was lucky enough to be present at the presentation of two
 state-of-the-art genetic programming symbolic regression systems --
 Trent McConaghy's Fast Function Extraction at GPTP 2011 and Leonardo
 Vanneschi and colleagues' implementation of Alberto Moraglio and
-colleagues' semantic geometric GP at EuroGP 2013. When I first
-understood FFX and SGGP I was very impressed -- it felt like we were
+colleagues' geometric semantic GP at EuroGP 2013. When I first
+understood FFX and GSGP I was very impressed -- it felt like we were
 taking real steps forward with symbolic regression.
 
 After thinking quite hard about them both, and playing a bit with
@@ -47,7 +47,7 @@ tends (tunably) to push a large number of the coefficients bi to zero.
 The result is a model which is highly readable.
 
 
-Semantic Geometric Genetic Programming (SGGP)
+Geometric Semantic Genetic Programming (GSGP)
 ---------------------------------------------
 
 Moraglio has always pushed the idea that we must understand EC
@@ -76,7 +76,7 @@ vector with expected value (0, 0, ..., 0). ms is the mutation step, a
 constant which defines the radius of the mutation ball. The output of
 tm is a vector drawn from the ball around the output of t.
 
-I did a few quick runs using a hill-climber with SGGP mutation. In my
+I did a few quick runs using a hill-climber with GSGP mutation. In my
 implementation the initial point in the hill-climber, and the random
 trees tr1 and tr2, are generated using the grow operator with maximum
 depth 2 (counting a single-node tree root as depth 0). That might not
@@ -108,14 +108,14 @@ tree is a linear combination of tr1s and tr2s.
 
 
 
-Shared strengths and limitations of FFX and SGGP
+Shared strengths and limitations of FFX and GSGP
 ------------------------------------------------
 
-This is the similarity between FFX and SGGP. Each produces a model
+This is the similarity between FFX and GSGP. Each produces a model
 which is a linear combination of small subtrees. These small subtrees
-in FFX are the basis functions; in SGGP the small subtrees are the tr1
+in FFX are the basis functions; in GSGP the small subtrees are the tr1
 and tr2 subtrees. The coefficients in the linear combination are the
-bi values in FFX; the ms values in SGGP. Both FFX and SGGP work by
+bi values in FFX; the ms values in GSGP. Both FFX and GSGP work by
 exploiting the fact that linear combinations are well-behaved and
 well-understood.
 
@@ -125,25 +125,25 @@ become arbitrarily large. Of course, in practice standard GP is not a
 universal approximator either, because of practical limits on tree
 size and depth; however in principle and in practice, standard GP can
 produce far more flexible models than the linear combinations of small
-subtrees characteristic of FFX and SGGP.
+subtrees characteristic of FFX and GSGP.
 
 Results with these methods suggest that the problems tackled so far do
 not require universal approximators. However this suggests a possible
-route to constructing a problem which is hard for FFX or SGGP: it
+route to constructing a problem which is hard for FFX or GSGP: it
 should be deeply non-linear, ie should feature non-linearities from
 root to leaf, and larger than the allowed size of the method's
 subtrees. Such a function would not be in the search space for either
 method.
 
-Note that re-introducing the SGGP crossover operator would change the
+Note that re-introducing the GSGP crossover operator would change the
 situation somewhat: it again produces a sum of subtrees, but now each
 subtree multiplies a parent tree by a random tree tr. However, there
 is still a strong limitation on the type of model which can be output
 by the method.
 
-A main difference between FFX and SGGP is that FFX uses a (relatively
+A main difference between FFX and GSGP is that FFX uses a (relatively
 small) fixed set of subtrees, and chooses among them optimally and
-deterministically, whereas SGGP does not have a predefined set of
+deterministically, whereas GSGP does not have a predefined set of
 subtrees, but generates them randomly from among a possibly larger
 space.
 
