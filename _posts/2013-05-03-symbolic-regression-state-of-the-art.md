@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An interesting equivalence between two state-of-the-art symbolic regression systems
+title: An equivalence between two state-of-the-art symbolic regression systems
 ---
 
 An equivalence between two state-of-the-art symbolic regression systems
@@ -80,9 +80,9 @@ I did a few quick runs using a hill-climber with GSGP mutation. In my
 implementation the initial point in the hill-climber, and the random
 trees tr1 and tr2, are generated using the grow operator with maximum
 depth 2 (counting a single-node tree root as depth 0). That might not
-be optimal but it's ok for now. A typical result after just 10 steps
-(7 of which were accepted by the hill-climber) is a tree like this (ms
-= 0.01):
+be optimal but it's ok for now. A typical result after just 10 steps,
+7 of which were accepted by the hill-climber, is a tree like this --
+where ms = 0.01:
 
     ['+', ['+', ['+', ['+', ['+', ['+', ['+', ['-', ['/', 'x221', 'x44'],
         ['+', 'x189', 'x233']],
