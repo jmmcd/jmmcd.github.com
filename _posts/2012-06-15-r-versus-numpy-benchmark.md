@@ -83,3 +83,10 @@ Results
 Unscientific conclusion: R wins easily for small sizes (possible
 explanation is that it doesn't need to pre-process the 2d array to a
 1d array), but at the large size I need, Numpy is the way to go.
+
+Update many months later: the reason it's abominably slow in both is
+that I'm using Kendall's tau, a rank-based measure of correlation,
+which has O(n^2) time complexity! The real conclusion is therefore:
+consider Spearman's rho instead, which is also rank-based, but faster.
+However, there is a can of worms here. They don't give the same
+results, and it's not obvious how to judge which is "better".
