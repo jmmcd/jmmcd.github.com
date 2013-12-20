@@ -10,13 +10,13 @@ Genetic programming needs better baselines
 Introduction
 ------------
 
-I've been talking about deficiencies in genetic programming
+We've been talking about deficiencies in genetic programming
 experimental practice, benchmarking, and so on
 [for a while](http://gpbenchmarks.org/). Our first paper on this topic
 was
 [Genetic programming needs better benchmarks](http://gpbenchmarks.org/wp-content/uploads/2013/05/paper1.pdf).
-Now I want to focus on one particular issue, which is the use of
-appropriate *baselines* in experiments.
+Now I want to focus on a more specific issue in experimental practice,
+which is the use of appropriate *baselines* in experiments.
 
 
 Gratuitous metaphor
@@ -57,24 +57,23 @@ are failing to beat the old, reliable, *linear regression*.
 Details
 -------
 
-I've seen at least two papers which fail this test recently. One
-example is Vanneschi et al, *A new implementation of geometric
-semantic GP and its application to problems in pharmacokinetics*,
-available
+I've seen some papers which fail this test recently. One example is
+Vanneschi et al, *A new implementation of geometric semantic GP and
+its application to problems in pharmacokinetics*, available
 [here](http://link.springer.com/chapter/10.1007/978-3-642-37207-0_18)
 (best paper award EuroGP 2013). Another is Spector and Helmuth,
 *Uniform linear transformation with repair and alternation in genetic
 programming* (GPTP 2013). I can't find it available online yet.
 
-
 * On the
   [bioavailability](http://kdbio.inesc-id.pt/~sara/gptp2013/bioavailability.txt)
-  data set, both papers report the median test RMSE using novel GP
+  data set, both papers report the median  RMSE using novel GP
   methods (a geometric semantic method in Vanneschi et al, and a novel
   mutation in the PushGP framework in Spector and Helmuth) as about
   32-33. Standard GP does far worse. But they don't say that
-  predicting a constant can do better, and linear regression about the
-  same.
+  predicting a constant (about 66) can do better (RMSE < 30), and
+  linear regression about the same. These figures are all on unseen
+  data, using a 50/50 split and randomisation.
 * On
   [protein plasma binding](http://kdbio.inesc-id.pt/~sara/gptp2013/ppb.txt),
   the Vanneschi et al paper reports a median test RMSE (again using a
@@ -86,13 +85,36 @@ To reproduce my results,
 as the data linked above. The script requires Python, Numpy and
 Scikit-learn. It reads a single data file, taking the last column as
 the dependent variable, and it has parameters for shuffling the data
-and setting the train/test split.
+and setting the train/test split. (Shuffling the data makes a small
+but noticeable difference to the result, even though both linear
+regression and prediction of a constant are deterministic.)
 
 I think it would be interesting to try the same test -- predicting a
 constant or using linear regression -- on a large selection of
 published symbolic regression papers which don't state baseline
 results. I suspect we'd find a few more which fail to beat linear
 regression. If someone has the time, please go ahead!
+
+Now, the interpretation of these facts is not obvious. I am *not*
+saying that failing to beat linear regression makes a symbolic
+regression paper worthless, or anything like that. A new technique
+might be very useful on some problems, even if it performs worse than
+standard GP or linear regression. Even if it's not better on any
+problem, a well-motivated study is still worth publishing. We should
+not be playing
+[the "up-the-wall" game](http://www.cs.stir.ac.uk/~goc/papers/GECCO09Decwk1005-ochoaATS.pdf).
+But in order to say "our result may be negative, but it is still worth
+publishing", we have to first *know* and *state* that the result
+actually is negative.
+
+I also think that the bioavailability problem, and the protein plasma
+binding one, and the toxicity one often associated with them, are not
+necessarily damaged as benchmarks by this result. We want our
+benchmark problems to be difficult, and these clearly are. Previously
+our benchmark *result* on these problems was as stated by previous
+work using standard GP and variations. Now we know that the benchmark
+result -- the one we should be aiming to beat -- is actually set by
+linear regression or even by predicting a constant. So, have at it!
 
 
 Conclusion
@@ -108,7 +130,8 @@ baseline for the task, and carry it out *before* doing a single GP
 run.
 
 One obvious lesson for symbolic regression researchers is that
-standard GP symbolic regression sometimes does really, really badly.
+standard GP symbolic regression sometimes does really, really badly --
+not only worse than linear regression, but far far worse on test data.
 
 The authors of the papers I point to above are senior researchers, big
 names in the field, with excellent reputations for doing excellent
