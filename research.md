@@ -41,5 +41,5 @@ projects code and information is available elsewhere:
 
 * [GP Distances](https://github.com/jmmcd/GPDistance)
 * [PonyGE](http://ponyge.googlecode.com)
-* [GP Benchmarks](http://groups.csail.mit.edu/EVO-DesignOpt/GPBenchmarks/)
+* [GP Benchmarks](http://gpbenchmarks.org/)
 * [Source for this website](https://github.com/jmmcd/jmmcd.github.com)
