@@ -34,6 +34,8 @@ Links:
 
 * [Publications](http://www.skynet.ie/~jmmcd/publications.html)
 * [UCD research and teaching page](http://www.ucd.ie/cba/members/jamesmcdermott/)
+* [My Orcid ID](http://orcid.org/0000-0002-1402-6995)
+* [My Google Scholar profile](https://scholar.google.com/citations?user=nKNOv8oAAAAJ&hl=en)
 * [Irish Research Council link](http://www.research.ie/featured-title/evolutionary-art-and-design)
 
 This site contains code for some of my projects, and for other
