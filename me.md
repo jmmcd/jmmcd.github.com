@@ -15,4 +15,3 @@ music.
 * [My other blog](http://jamesmichaelmcdermott.blogspot.com) (will
 be migrated here, someday, maybe)
 * [My Bitbucket account](https://bitbucket.org/jmmcd)
-* [My Orcid ID](http://orcid.org/0000-0002-1402-6995)
