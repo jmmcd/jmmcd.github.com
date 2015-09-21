@@ -10,6 +10,13 @@ the study of representations and fitness landscapes for evolutionary
 algorithms, graph problems, and interactive evolutionary computation
 as a tool in creative workflows.
 
+I am interested in talking to potential students about opportunities
+to pursue PhD research at UCD in areas that match my research
+interests. Some keywords: machine learning; evolutionary computation;
+grammatical methods; graphs and networks; network security; art, music
+and design; regression and classification; analytics; minimum
+description length; optimisation; metaheuristics.
+
 I've worked and studied at:
 
 * the National University of Ireland, Galway (BSc in computer science
@@ -32,11 +39,9 @@ evolutionary design); and currently:
 
 Links:
 
-* [Publications](http://www.skynet.ie/~jmmcd/publications.html)
 * [UCD research and teaching page](http://www.ucd.ie/cba/members/jamesmcdermott/)
-* [My Orcid ID](http://orcid.org/0000-0002-1402-6995)
 * [My Google Scholar profile](https://scholar.google.com/citations?user=nKNOv8oAAAAJ&hl=en)
-* [Irish Research Council link](http://www.research.ie/featured-title/evolutionary-art-and-design)
+* [My Orcid ID](http://orcid.org/0000-0002-1402-6995)
 
 This site contains code for some of my projects, and for other
 projects code and information is available elsewhere:
