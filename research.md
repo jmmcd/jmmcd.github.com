@@ -12,10 +12,11 @@ as a tool in creative workflows.
 
 I am interested in talking to potential students about opportunities
 to pursue PhD research at UCD in areas that match my research
-interests. Some keywords: machine learning; evolutionary computation;
-grammatical methods; graphs and networks; network security; art, music
-and design; regression and classification; analytics; minimum
-description length; optimisation; metaheuristics.
+interests. Some keywords: automatic programming; machine learning;
+evolutionary computation; grammatical methods; graphs and networks;
+network security; art, music and design; regression and
+classification; analytics; minimum description length; optimisation;
+metaheuristics.
 
 I've worked and studied at:
 
