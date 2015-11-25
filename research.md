@@ -14,15 +14,41 @@ computation as a tool in creative workflows.
 I have done research in the University of Limerick, University College
 Dublin, and Massachusetts Institute of Technology.
 
-I have opportunities for talented students with similar research
-interests to work towards a PhD under my supervision in UCD.  Tax-free
+I am interested in talking to potential students about opportunities
+to pursue PhD research at UCD in areas that match my research
+interests. Some keywords: automatic programming; machine learning;
+evolutionary computation; grammatical methods; graphs and networks;
+network security; art, music and design; regression and
+classification; analytics; minimum description length; optimisation;
+metaheuristics. Tax-free
 funding is available. Please contact me with a CV if interested.
+
+I've worked and studied at:
+
+* the National University of Ireland, Galway (BSc in computer science
+and mathematics);
+
+* Hewlett-Packard, Galway, Ireland (automated install and system
+management for supercomputers);
+
+* University of Limerick (PhD in evolutionary control of sound
+synthesis);
+
+* University College Dublin (post-doctoral research in evolutionary
+design);
+
+* Massachusetts Institute of Technology (post-doctoral research in
+evolutionary design); and currently:
+
+* University College Dublin (Lecturer in Business Analytics, Quinn
+  Business School).
+>>>>>>> 24106bd232dac0dc495b8e49000674cd34e7fcf3
 
 Links:
 
-* [Publications](http://www.skynet.ie/~jmmcd/publications.html)
 * [UCD research and teaching page](http://www.ucd.ie/cba/members/jamesmcdermott/)
-* [Irish Research Council link](http://www.research.ie/featured-title/evolutionary-art-and-design)
+* [My Google Scholar profile](https://scholar.google.com/citations?user=nKNOv8oAAAAJ&hl=en)
+* [My Orcid ID](http://orcid.org/0000-0002-1402-6995)
 
 This site contains code for some of my projects, and for other
 projects code and information is available elsewhere:
