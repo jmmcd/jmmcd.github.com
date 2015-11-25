@@ -1,6 +1,7 @@
 ---
 layout: post
 title: An equivalence between two state-of-the-art symbolic regression systems
+tags: evolutionary_computation gpbenchmarks
 ---
 
 An equivalence between two state-of-the-art symbolic regression systems

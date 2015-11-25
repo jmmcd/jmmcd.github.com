@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GP Needs Better Baselines
-tags: code python evolutionary_computation
+tags: code python evolutionary_computation gpbenchmarks
 ---
 
 Genetic programming needs better baselines
