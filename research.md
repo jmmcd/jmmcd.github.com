@@ -5,30 +5,18 @@ permalink: /research.html
 ---
 
 I'm a researcher with interests in evolutionary computation,
-analytics, and computational creativity. I'm especially interested in
-the study of representations and fitness landscapes for evolutionary
-algorithms, graph problems, and interactive evolutionary computation
-as a tool in creative workflows.
+analytics, machine learning, and computational creativity. I'm
+especially interested in the study of representations and fitness
+landscapes for evolutionary algorithms, genetic programming,
+optimisation and graph problems, and interactive evolutionary
+computation as a tool in creative workflows.
 
-I've worked and studied at:
+I have done research in the University of Limerick, University College
+Dublin, and Massachusetts Institute of Technology.
 
-* the National University of Ireland, Galway (BSc in computer science
-and mathematics);
-
-* Hewlett-Packard, Galway, Ireland (automated install and system
-management for supercomputers);
-
-* University of Limerick (PhD in evolutionary control of sound
-synthesis);
-
-* University College Dublin (post-doctoral research in evolutionary
-design);
-
-* Massachusetts Institute of Technology (post-doctoral research in
-evolutionary design); and currently:
-
-* University College Dublin (Lecturer in Business Analytics, Quinn
-  Business School).
+I have opportunities for talented students with similar research
+interests to work towards a PhD under my supervision in UCD.  Tax-free
+funding is available. Please contact me with a CV if interested.
 
 Links:
 
