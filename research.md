@@ -23,26 +23,6 @@ classification; analytics; minimum description length; optimisation;
 metaheuristics. Tax-free
 funding is available. Please contact me with a CV if interested.
 
-I've worked and studied at:
-
-* the National University of Ireland, Galway (BSc in computer science
-and mathematics);
-
-* Hewlett-Packard, Galway, Ireland (automated install and system
-management for supercomputers);
-
-* University of Limerick (PhD in evolutionary control of sound
-synthesis);
-
-* University College Dublin (post-doctoral research in evolutionary
-design);
-
-* Massachusetts Institute of Technology (post-doctoral research in
-evolutionary design); and currently:
-
-* University College Dublin (Lecturer in Business Analytics, Quinn
-  Business School).
->>>>>>> 24106bd232dac0dc495b8e49000674cd34e7fcf3
 
 Links:
 
