@@ -46,7 +46,16 @@ drawing from defined functions (as opposed to real-world data). I
 recently reviewed a paper where classification results on real-world
 data with a standard method varied from far *below* to slightly
 *above* the claimed performance of the proposed new method, just by
-varying the train-test split.
+varying the train-test split. *Train-test splits just don't cut it*.
+
+The issues raised here obviously arise outside GP. Why isn't the idea
+of fixed train/test datasets common in the bigger world of machine
+learning? For one thing, some machine learning methods are fast enough
+to use leave-one-out cross-validation. For another, many common
+datasets are large enough and/or homegeneous enough that different CV
+folds end up being closely equivalent in difficulty. It's a particular
+feature of common GP problems, as shown by Nicolau et al., that this
+is not the case.
 
 A natural solution is to use several random draws (or splits), or a
 full cross-validation methodology. For some problems this is
@@ -79,4 +88,57 @@ train-test splits, *before* choosing just one which is not
 misleadingly easy or difficult, and publish that as our "official"
 split.
 
-In conclusion, *train-test splits just don't cut it*.
+There are a couple of obstacles. First, we've seen examples in the
+past where distinct versions of what should be a fixed dataset are
+actually in use
+(e.g. [Bezdek et al.](http://pages.bangor.ac.uk/~mas00a/papers/jbjkrklknptfs99.pdf)
+show this for the Iris dataset). Publishing the URL for training and
+test datasets doesn't solve this problem, because it's easy for an
+author to run experiments, publish the URLs, and later on upload new
+versions to the same URLs. To counter this, perhaps an MD5 checksum
+could be run on the datasets by the authors who first use them, and
+(say) the last 4 characters of each could be published *in the paper*
+as part of the same table which lists the datasets' names and
+dimensions. This gives a permanent, verifiable link between results
+and original data
+[(see Principle 4 here)](http://guerrilla-analytics.net/the-principles/).
+
+Another practical obstacle to good practice is double-blind reviewing.
+Many authors will be happy to publish their datasets, but when they're
+submitting a paper to a double-blind venue they naturally omit the
+URLs if they easily identify the authors (e.g. pointing to a
+university webpage). Later on, if the paper is accepted, they may or
+may not remember to add them. Either way, the reviewer isn't able to
+download the data and run
+[simple baselines](http://jmmcd.net/2013/12/19/gp-needs-better-baselines.html)
+to check out the results.
+
+This is similar to a problem faced by EvoMUSART (the International
+Conference on Evolutionary and Biologically Inspired Music, Sound, Art
+and Design): music and other media which don't fit well in papers can
+be put online for review, but authors remove the URLs for double-blind
+review, and reviewers aren't able to judge the work. When Penousal
+Machado and I were chairs in 2013 we added a line to the call for
+papers: authors should use a URL-shortening service like Tinyurl to
+add an anonymous-looking link. The URL should point to a download,
+rather than to a html page, to avoid showing the true URL after
+redirection. It's not perfect, because a determined reviewer can still
+find the original URL. If an author is worried about anonymity, they
+could instead upload to an anonymous file-sharing site. This should
+preferably be a permament location like a
+[Github gist](https://gist.github.com), and not one of the ones where
+you wait 30 seconds and then click Download, only to discover that the
+*real* download link was hidden at the bottom of the page and instead
+you've opened up a video chat with a group of sexy singles living in
+your area.
+
+One more small issue: if the original author creates the dataset in an
+Excel file, and calculates the checksum on this, but the next author
+downloads and exports to csv in order to suit a different platform,
+then clearly the checksums won't match. That's good: it warns
+subsequent authors that something has happened. As long as the
+original file is available, with its original checksum mentioned in
+paper, subsequent authors can go and get it and verify the checksum,
+and do the conversion to their preferred format by themselves.
+
+
