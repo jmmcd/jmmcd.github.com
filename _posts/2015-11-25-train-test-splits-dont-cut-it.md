@@ -48,15 +48,6 @@ data with a standard method varied from far *below* to slightly
 *above* the claimed performance of the proposed new method, just by
 varying the train-test split. *Train-test splits just don't cut it*.
 
-The issues raised here obviously arise outside GP. Why isn't the idea
-of fixed train/test datasets common in the bigger world of machine
-learning? For one thing, some machine learning methods are fast enough
-to use leave-one-out cross-validation. For another, many common
-datasets are large enough and/or homegeneous enough that different CV
-folds end up being closely equivalent in difficulty. It's a particular
-feature of common GP problems, as shown by Nicolau et al., that this
-is not the case.
-
 A natural solution is to use several random draws (or splits), or a
 full cross-validation methodology. For some problems this is
 appropriate, but Nicolau et al.'s results show that on some common GP
@@ -69,6 +60,15 @@ controlled by a seed which is not published.
 That could be addressed using the extreme case of leave-one-out
 cross-validation, which amounts to a deterministic experiment. However
 that is usually infeasible in GP because of long training times.
+
+The issues raised here obviously arise outside GP. Why isn't the idea
+of fixed train/test datasets common in the bigger world of machine
+learning? For one thing, some machine learning methods are fast enough
+to use leave-one-out cross-validation. For another, many common
+datasets are large enough and/or homogeneous enough that different CV
+folds end up being closely equivalent in difficulty. It's a particular
+feature of common GP problems, as shown by Nicolau et al., that this
+is not the case.
 
 The solution proposed by Nicolau et al. is to carry out a single split
 (or a single draw, if drawing from a function), and to publish the
