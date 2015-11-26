@@ -32,37 +32,37 @@ in the performance of the same algorithm on different train-test
 splits. 
 
 This means that two authors' results on the same function cannot be
-fairly compared, because they may not have drawn the same train-test
-splits. Even worse, it means that results from a single paper may not
-be comparable against each other, unless it is clearly stated that the
-same train-test split was used for all experiments. Wishful authors
-can deceive themselves by re-running the experiment multiple times
-until they get a lucky split (and can persuade themselves that a
-random tweak of parameters has had a beneficial effect). Dishonest
-authors can deceive reviewers and readers.
+fairly compared, because they may not have drawn the same train and
+test sets. Even worse, it means that results from a single paper may
+not be comparable against each other, unless it is clearly stated that
+the same train and test sets were used for all experiments. Wishful
+authors can deceive themselves by re-running the experiment multiple
+times until they get a lucky test set (and can persuade themselves
+that a random tweak of parameters has had a beneficial
+effect). Dishonest authors can deceive reviewers and readers.
 
 The problem is not limited to regression or to datasets created by
 drawing from defined functions (as opposed to real-world data). I
 recently reviewed a paper where classification results on real-world
-data with a standard method varied from far *below* to far *above* the
-claimed performance of the proposed new method, just by varying the
-split.
+data with a standard method varied from far *below* to slightly
+*above* the claimed performance of the proposed new method, just by
+varying the train-test split.
 
-A natural solution is to use several random splits, or a full
-cross-validation methodology. For some datasets this is appropriate,
-but Nicolau et al.'s results show that on some common GP symbolic
-regression problems even a cross-validation won't be enough, because
-the different folds can be so different from each other. The issue
-here is that standard cross-validation is still non-deterministic, or
-(the same thing in practice) deterministic, but controlled by a seed
-which is not published.
+A natural solution is to use several random draws (or splits), or a
+full cross-validation methodology. For some problems this is
+appropriate, but Nicolau et al.'s results show that on some common GP
+symbolic regression problems even a cross-validation won't be enough,
+because the different folds can be so different from each other. The
+issue here is that standard cross-validation is still
+non-deterministic, or (the same thing in practice) deterministic, but
+controlled by a seed which is not published.
 
 That could be addressed using the extreme case of leave-one-out
 cross-validation, which amounts to a deterministic experiment. However
 that is usually infeasible in GP because of long training times.
 
 The solution proposed by Nicolau et al. is to carry out a single split
-(or a single draw, if drawing from a function), to and publish the
+(or a single draw, if drawing from a function), and to publish the
 training and test data files. In effect, the problem becomes defined
 by these two files, rather than by the original data file or
 function. Results (within-paper or between-paper) become directly
@@ -72,9 +72,11 @@ This solution seems appropriate when defining a benchmark problem. The
 problem remains that if that single original split (or draw) is
 "lucky" or "unlucky", the problem will appear misleadingly easy, or
 difficult. For real-world datasets, we don't want to be deceived in
-this way. For many real-world datasets, we can at least check
-performance on many train-test splits, *before* choosing just one,
-which is not misleadingly easy or difficult, to publish as our
-"official" split.
+this way (we might wrongly conclude that GP was very good at
+regressing data from a particular medical domain, for example). For
+many real-world datasets, we can at least check performance on many
+train-test splits, *before* choosing just one which is not
+misleadingly easy or difficult, and publish that as our "official"
+split.
 
 In conclusion, *train-test splits just don't cut it*.
