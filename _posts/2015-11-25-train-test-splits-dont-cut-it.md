@@ -71,11 +71,12 @@ feature of common GP problems, as shown by Nicolau et al., that this
 is not the case.
 
 The solution proposed by Nicolau et al. is to carry out a single split
-(or a single draw, if drawing from a function), and to publish the
-training and test data files. In effect, the problem becomes defined
-by these two files, rather than by the original data file or
-function. Results (within-paper or between-paper) become directly
-comparable only if using the same data files. 
+(or a single draw for training and for test, if drawing from a
+function), and to publish the resulting training and test data
+files. In effect, the problem becomes defined by these two files,
+rather than by the original data file or function. Results
+(within-paper or between-paper) become directly comparable only if
+using the same data files.
 
 This solution seems appropriate when defining a benchmark problem. The
 problem remains that if that single original split (or draw) is
