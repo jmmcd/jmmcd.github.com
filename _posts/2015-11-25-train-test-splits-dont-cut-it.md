@@ -126,7 +126,7 @@ rather than to a html page, to avoid showing the true URL after
 redirection. It's not perfect, because a determined reviewer can still
 find the original URL. If an author is worried about anonymity, they
 could instead upload to an anonymous file-sharing site. This should
-preferably be a permament location like a
+preferably be a permanent location like a
 [Github gist](https://gist.github.com), and not one of the ones where
 you wait 30 seconds and then click Download, only to discover that the
 *real* download link was hidden at the bottom of the page and instead
@@ -141,5 +141,3 @@ subsequent authors that something has happened. As long as the
 original file is available, with its original checksum mentioned in
 paper, subsequent authors can go and get it and verify the checksum,
 and do the conversion to their preferred format by themselves.
-
-
