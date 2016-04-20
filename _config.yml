@@ -1,3 +1,4 @@
-highlighter: pygments
+#markdown: redcarpet
+#highlighter: pygments
 # disqus:
 # 	id: twitter.com/bleepbeepbzzz
