@@ -34,8 +34,8 @@ conservative in this way. In a medical diagnosis scenario, clearly it
 would be better for the classifier to say "I don't know" when it
 really doesn't, and effectively turn the case over to a human expert.
 
-A really nice recent blog post by Kruchten
-[here](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
+A really nice
+[recent blog post by Kruchten](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
 goes into detail on another scenario in which a refusal to answer can
 lead to better outcomes, even though calling the human expert comes at
 a cost, because both false positives and false negatives have their
@@ -45,8 +45,8 @@ get higher accuracy on the difficult cases (all this is assuming that
 a human expert actually is capable of higher accuracy on difficult
 cases, of course).
 
-The same blog post points to a JMLR paper by Bartlett and Wegkamp
-[here](http://www.jmlr.org/papers/volume9/bartlett08a/bartlett08a.pdf). Here,
+The same blog post points to
+[a JMLR paper by Bartlett and Wegkamp](http://www.jmlr.org/papers/volume9/bartlett08a/bartlett08a.pdf). Here,
 we are again using a discriminant function $f(x)$, with zero as the
 threshold. However, if $|f(x)| < \delta$, the classifier refuses to
 answer.
@@ -60,7 +60,7 @@ paper -- this is really a different issue. Consider the following
 figure. Which of the query points -- the green triangles -- do we feel
 more confident about?
 
-![Diagram showing multiple thresholds](../../../images/margin-confidence-1.png)
+![Diagram showing multiple thresholds and an anomaly](../../../images/margin-confidence-1.png)
 
 What we're seeing here is two completely different types of
 uncertainty. There are points which are "between" the two classes
@@ -78,3 +78,14 @@ would be interesting to look at outliers in some real-world datasets
 to understand the prevalence of the two types of uncertainty, and
 hence to carry out the type of economic analysis being carried out by
 Kruchten.
+
+All of this hooks into an interesting line of research being carried
+out by my former colleague, Kalyan Veeramachaneni and his start-up
+company PatternEx. In
+[a recent paper](http://people.csail.mit.edu/kalyan/AI2_Paper.pdf),
+human expertise is again being called on to decide cases the machine
+is not yet capable of deciding. This is online learning. The nice
+thing about it is that the human expert is not called on to label huge
+amounts of data upfront, but only to decide a small number of selected
+cases each day. This number can even diminish over time as the model
+learns.
