@@ -17,21 +17,22 @@ real-world situations where we might like to allow a classifier to say
 sense".
 
 One classic classifier is the
-[Altman Z-score](https://en.wikipedia.org/wiki/Altman_Z-score). Here,
-we have a discriminant value which is a linear combination of the
+[Altman Z-score](https://en.wikipedia.org/wiki/Altman_Z-score), used
+in analysing whether companies are at risk of bankruptcy. Here, we
+have a discriminant value which is a linear combination of the
 variables.  Instead of a single threshold on the discriminant value,
 giving two classes, Altman set two thresholds, giving three
 classes. They were the "Safe Zone", "Gray Zone", and "Distress
 Zone". In other words, when the discriminant took on an intermediate
-value, the classifier refused to answer. Altmann could have set a
-single boundary instead, but would have got more incorrect
-predictions. Putting in a large "Gray Zone" is a conservative
-approach.
+value, the classifier refused to answer. He could have set a single
+boundary instead, giving "Safe" or "Distress" for every query, but
+would have got more incorrect predictions. Putting in a large "Gray
+Zone" is a conservative approach.
 
 In a lot of real-world examples, it's better for the classifier to be
 conservative in this way. In a medical diagnosis scenario, clearly it
-would be better for the classifier to say "I don't know", and
-effectively turn the case over to a human expert.
+would be better for the classifier to say "I don't know" when it
+really doesn't, and effectively turn the case over to a human expert.
 
 A really nice recent blog post by Kruchten
 [here](http://blog.mldb.ai/blog/posts/2016/04/ml-meets-economics2/)
