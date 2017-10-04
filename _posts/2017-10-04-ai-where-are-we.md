@@ -1,10 +1,10 @@
 ---
 layout: post
-title: AI: Where are we?
+title: AI -- where are we?
 tags: artificial_intelligence
 ---
 
-AI: Where are we?
+AI -- where are we?
 ========
 
 We are not close to general AI, but there seems to a clear trend towards increasing generality in machine learning methods over the past 10 years. Generality means that the same algorithms can be applied to many different problems. This short blog post (with many citations omitted) describes my position, that we are making real progress towards general AI, that is agents with a high level of intelligence (perhaps superhuman, perhaps not, but still high) across many tasks and situations.
