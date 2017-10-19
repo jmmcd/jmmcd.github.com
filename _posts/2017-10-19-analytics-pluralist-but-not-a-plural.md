@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Analytics is not a plural
+title: Analytics -- pluralist, but not a plural
 tags: analytics
 ---
 
-Analytics: pluralist, but not a plural
+Analytics -- pluralist, but not a plural
 ========
 
 (Some nit-picking on terminology.)
