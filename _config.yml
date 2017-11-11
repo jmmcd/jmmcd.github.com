@@ -2,3 +2,6 @@
 #highlighter: pygments
 # disqus:
 # 	id: twitter.com/bleepbeepbzzz
+
+plugins_dir:
+  - jekyll-feed
