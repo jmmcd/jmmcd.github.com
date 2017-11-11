@@ -15,19 +15,18 @@ among other solvers. I couldn't find an Emacs mode for editing Mosel, so  here's
 
 (define-generic-mode 'mosel-mode
   ;; comment characters
-  nil ;; handled below
+  '("!")
   '("model" "end-model" "uses" "declarations" "end-declarations" "maximise" "minimise" "writeln" "XPRS_OPT" "XPRS_UNF" "XPRS_INF" "XPRS_UNB" "XPRS_OTH" "case" "end-case" "forall" "sum" "in" "array" "of") ;; keywords
   '(
 	("(!.*?\\(\n.*?\\)*?!)" . 'font-lock-comment-face) ;; the RE is right but it seems to fail for blocks longer than a few lines
-	("!.*?$" . 'font-lock-comment-face)
-	(";" . 'font-lock-builtin)
-	(":=" . 'font-lock-builtin)
-	("::" . 'font-lock-builtin)
-	("\\.\\." . 'font-lock-builtin)
-	("<=" . 'font-lock-builtin)
-	(">=" . 'font-lock-builtin)
-	("=" . 'font-lock-builtin)
-	(":" . 'font-lock-builtin)
+	(";" . 'font-lock-builtin-face)
+	(":=" . 'font-lock-builtin-face)
+	("::" . 'font-lock-builtin-face)
+	("\\.\\." . 'font-lock-builtin-face)
+	("<=" . 'font-lock-builtin-face)
+	(">=" . 'font-lock-builtin-face)
+	("=" . 'font-lock-builtin-face)
+	(":" . 'font-lock-builtin-face)
 	("linctr" . 'font-lock-function-name-face)
 	("mpvar" . 'font-lock-function-name-face)
 	("real" . 'font-lock-function-name-face)
