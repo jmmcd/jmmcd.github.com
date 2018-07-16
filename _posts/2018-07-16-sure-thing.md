@@ -9,7 +9,7 @@ The Book of Why and the sure-thing principle
 
 *The Book of Why* by Judea Pearl and Dana Mackenzie is really, really good! It's about *causality*: how the principle "correlation is not causation" came to be so central in statistics that discussion of causation came to be almost off-limits not only in statistics but in medicine and social science, and how in the last couple of decades statisticians, led by Pearl, have made enough progress to allow discussion of causality after all. 
 
-Causality is important because often the questions we want to answer with statistics are indeed causal ones: not whether there is an association between jogging and health, but whether if someone decides to start jogging, they will become healthier. The former might be written *p(health | jogging)*, but the latter as *p(health | do(jogging))*, where the *do()*-operator indicates an *intervention*, i.e. *choosing* to start jogging. The *do()*-operator and the manipulations which can be done to formulas containing it are central contributions of Pearl's programme. Crucially, they allow researchers to ask and answer causal questions even when they only have observational data, not randomised controlled trial (RCT) data. [Pearl has said](https://twitter.com/yudapearl/status/1012512462770298880) that one of the biggest effects of his programme will be to erode the "hegemony" of RCTs.
+Causality is important because often the questions we want to answer with statistics are indeed causal ones: not whether there is an association between jogging and health, but whether if someone decides to start jogging, they will become healthier. The former might be written *p(health \| jogging)*, but the latter as *p(health \| do(jogging))*, where the *do()*-operator indicates an *intervention*, i.e. *choosing* to start jogging. The *do()*-operator and the manipulations which can be done to formulas containing it are central contributions of Pearl's programme. Crucially, they allow researchers to ask and answer causal questions even when they only have observational data, not randomised controlled trial (RCT) data. [Pearl has said](https://twitter.com/yudapearl/status/1012512462770298880) that one of the biggest effects of his programme will be to erode the "hegemony" of RCTs.
 
 According to the book, statistics has been crippled by being unable to discuss these questions without RCT data. The enjoyable narrative is that of a few causality-speaking renegades in the early days of statistics being side-lined by the founding fathers, until the "causal revolution" of recent decades, led by Pearl. It's a "popular science" book, but a relatively detailed one. I don't think it will be accused of over-simplifying as many pop science books are. Maybe there are places where statisticians will say that they aren't really as crippled in their methods as the book suggests, but on the other hand we are still hearing [reports from researchers](https://twitter.com/yudapearl/status/1018564041373933568) that they have to pretend not to talk about causation at all in order to placate reviewers for statistical journals.
 
@@ -26,7 +26,7 @@ Simpson's paradox
 
 Anyway, the main reason I started typing this post, which turned into a mini-review and recommendation, is a small pedagogical point I picked up on while reading the section on Simpson's paradox and the sure-thing principle. First, an introduction. [Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox) is well-known. I like one of the examples given in the book, which concerns the effect of a drug on heart attacks. Here's the (fictitious) data from the book (Table 6.4):
 
-|     | Does not take drug |                     | Does take drug   |                     |
+|     | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does not take drug |                     | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does take drug   |                     |
 | --- |:------------------:|:-------------------:|:----------------:|:-------------------:|
 |     | **Heart attack**   | **No heart attack** | **Heart attack** | **No heart attack** |
 | Female        | 1   | 19 | 3  | 37 |
@@ -50,7 +50,7 @@ Why did the example violate our intuition in the first place? Because if a drug 
 
 Now, another story. Suppose a businessman can buy property A or property B, and thinks that the outcome of the upcoming presidential election could affect the probability of financial gain. He uses some very detailed simulation models, I guess, to arrive at the numbers below for the probabilities that he'll achieve a financial payoff for the properties, under a Democrat-wins scenario and under a Republican-wins one.
 
-|     | Buy property A      |                      | Buy property B     |                     |
+|     | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buy property A      |                      | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buy property B     |                     |
 | --- |:-------------------:|:--------------------:|:------------------:|:-------------------:|
 |     | **$1 payoff**       | **No payoff**        | **$1 payoff**      | **No payoff** |
 | Democrat wins             | 5%  | 95% | 7.5% | 92.5% |
