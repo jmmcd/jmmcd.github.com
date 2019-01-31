@@ -6,26 +6,18 @@ permalink: /me.html
 
 <div id="logo">&nbsp;</div>
 
-I'm a researcher in analytics, evolutionary computation and
+I'm a researcher in metaheuristic optimisation, machine learning, and
 computational creativity. I also write music and I write programs that
 write music.
 
-I am the programme director for the
-[UCD MSc in Business Analytics](http://www.smurfitschool.ie/businessanalytics/). It
-teaches descriptive, predictive, and prescriptive analytics, with
-foundational material, many applications, and advanced research. We
-have world-class faculty and close to full employment of
-graduates. Please see the above link or contact me for more
-information.
+I'm a lecturer in Computer Science in the National University of Ireland, Galway. I teach on the MSc in Data Analytics and MSc in Artificial Intelligence.
 
-I also have opportunities for talented students with well-aligned
-research interests to work towards a PhD under my supervision in UCD.
-Tax-free funding is available. Please see
+I'm interested in supervising/mentoring researchers at undergrad, MSc, PhD, or post-doc level. Please see
 [my research interests](/research.html) and contact me with a CV if
 interested.
 
 
-I've worked and studied at:
+I've previously worked and studied at:
 
 * the National University of Ireland, Galway (BSc in computer science
 and mathematics);
@@ -40,7 +32,7 @@ synthesis);
 design);
 
 * Massachusetts Institute of Technology (post-doctoral research in
-evolutionary design); and currently:
+evolutionary design); and
 
 * University College Dublin (Lecturer in Business Analytics and
   Programme Director of the MSc in Business Analytics, UCD College of
@@ -49,7 +41,9 @@ evolutionary design); and currently:
 
 
 * [My other homepage](http://www.skynet.ie/~jmmcd)
-* [My other other homepage](http://www.ucd.ie/cba/members/jamesmcdermott/)
+* [My publications in Google Scholar](https://scholar.google.com/citations?user=nKNOv8oAAAAJ)
+* [My ORCID](https://orcid.org/0000-0002-1402-6995)
+* [My reviews in Publons](https://publons.com/author/402776/james-mcdermott)
 * [My other blog](http://jamesmichaelmcdermott.blogspot.com) (will
 be migrated here, someday, maybe)
 * [My Bitbucket account](https://bitbucket.org/jmmcd)
