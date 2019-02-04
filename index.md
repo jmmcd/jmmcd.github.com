@@ -4,7 +4,7 @@ title: James McDermott
 permalink: /index.html
 ---
 
-jmmcd: code and blog
+James McDermott
 ====================
 
 

@@ -10,7 +10,7 @@ I'm a researcher in metaheuristic optimisation, machine learning, and
 computational creativity. I also write music and I write programs that
 write music.
 
-I'm a lecturer in Computer Science in the National University of Ireland, Galway. I teach on the MSc in Data Analytics and MSc in Artificial Intelligence.
+I'm a lecturer in Computer Science in the College of Engineering and Informatics, National University of Ireland, Galway. I teach on the MSc in Data Analytics and MSc in Artificial Intelligence.
 
 I'm interested in supervising/mentoring researchers at undergrad, MSc, PhD, or post-doc level. Please see
 [my research interests](/research.html) and contact me with a CV if
