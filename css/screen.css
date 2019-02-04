@@ -110,10 +110,11 @@ text-transform:none;
 h1 a:hover { color:#fba919 ;}
 
 #logo {
-	margin: -115px 0px -30px -50px;
 	float:right;
-	background: url('/images/McDermott-Morocco-2018.jpg');
-	height: 106px; width:83px;
+	background: url('/images/McDermott-Morocco-2018.png');
+	width: 208px;
+	height: 227px;
+	margin: 10px 10px 10px 10px
 }
 
 .publish_date {
