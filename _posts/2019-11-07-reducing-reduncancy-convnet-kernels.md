@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Conv nets are too complex
-tags: analytics
+title: Reducing redundancy in convnet kernels
+tags: artificial_intelligence machine_learning
 ---
 
-# Conv nets are too complex
+# Reducing redundancy in convnet kernels
 
 
 
