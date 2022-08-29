@@ -28,10 +28,11 @@ funding are sometimes available. Please contact me with a CV if interested.
 
 ## Former students
 
-I was lucky to be the supervisor of the following excellent students who have now finished and moved on to exciting new positions and projects:
+I was lucky to be the supervisor/co-supervisor of the following excellent research students who have now finished and moved on to exciting new positions and projects:
 
 * [Loi Van Cao](https://scholar.google.com/citations?user=7A6srrQAAAAJ&hl=en) (graduated PhD, UCD Computer Science, 2018, now Lecturer at Le Quy Don University, Vietnam)
-* [Stefano Mauceri](https://scholar.google.com/citations?hl=en&user=386TpcYAAAAJ) (graduated PhD, UCD Business, 2020, now adjunct Lecturer at NUI Galway and researcher with BioInnovate Ireland)
+* [Stefano Mauceri](https://scholar.google.com/citations?hl=en&user=386TpcYAAAAJ) (graduated PhD, UCD Business, 2020, now working in Huawei Ireland)
+* [Filipe Assunção](https://scholar.google.com/citations?user=qg-jmM4AAAAJ&hl=en&oi=ao) (graduated MSc, University of Coimbra, 2015, now Lead Research Scientist at OutSystems, Lisbon)
 
 
 ## Code
