@@ -15,7 +15,7 @@ classification; minimum description length; optimisation;
 metaheuristics.
 
 I am interested in talking to potential students about opportunities
-to pursue PhD research at NUI Galway in areas that match my research
+to pursue PhD research at University of Galway in areas that match my research
 interests. Opportunities for 
 funding are sometimes available. Please contact me with a CV if interested.
 

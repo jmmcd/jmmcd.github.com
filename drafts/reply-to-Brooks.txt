@@ -1,0 +1,23 @@
+A lot of this essay is good. I agree that talking about the singularity is pointless, and that most exponentials (especially with time as the dependent variable) are really sigmoidal. I agree that evil AI is unlikely to come about either by design or by "emergence". And the discussion about obstacles to flexible re-design of automation in manufacturing is new to me, and looks like it might be practically important.
+
+However this essay doesn't really engage with the literature on a few important topics.
+
+> One smart enough that it would be able to invent ways to subvert human society to achieve goals set for it by humans, without understanding the ways in which it was causing problems for those same humans.
+
+If it's programmed to optimise some function, then it will try to do so. We know how to write objective functions and we know how to write optimisation algorithms. But if we want "oh, and don't go causing problems for humans" to be part of that function, then how do we express that? We don't have a clue. This is a core topic in AI safety research. And if we don't put that into the function, then why would an agent refrain from causing such problems, even if it does understand that it's causing them? It's possible to be intelligent without being inherently benign. This is the orthogonality thesis, another core topic in AI safety research.
+
+> I think mathematical provability is a vain hope. With multi-year large team efforts we can not prove that a 1,000 line program can not be breached by external hackers, so we certainly won’t be able to prove very much at all about large AI systems.
+
+This seems to confuse code and algorithms. No-one is really interested in proving whether (eg) I/O code used in an AI system would be vulnerable to buffer overflows or other types of bugs. The focus is on proving that the *algorithms* are correct: the learning algorithms, the methods of representing goals, the algorithms for self-modification and maintenance of goals through multiple phases of it. These are core topics in AI safety research.
+
+> The good news is that us humans were able to successfully co-exist with, and even use for our own purposes, horses, themselves autonomous agents with on going existences, desires, and super-human physical strength, for thousands of years. And we had not a single theorem about horses. Still don’t!
+
+This argument is very well refuted a few paragraphs later:
+
+> We understand intuitively how to generalize from the performance level of the person to their competence in related areas [...] Now consider a case that is closer to some performances we see for some of today’s AI systems [...].
+
+My point is: our instincts for how horses behave were already pretty good before we started domesticating them (by virtue of evolving in that type of world) and became amazingly good after. But our instincts for how AI agents might behave are totally lacking. We should not generalize from our own success in controlling and understanding horses to an ability to control and understand AI.
+
+> long before we see such machines arising there will be the somewhat less intelligent and belligerent machines. Before that there will be the really grumpy machines. Before that the quite annoying machines. And before them the arrogant unpleasant machines.
+
+I hope it happens this way. But if human-level AI is possible, then it seems likely that self-improving AI is possible. If self-improving AI is possible, then given enough compute power, what's to stop it happening quickly? (And compute power would be available, because of the economic incentive.) This is the intelligence explosion, another core topic in AI safety research.

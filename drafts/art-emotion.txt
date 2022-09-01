@@ -1,0 +1,224 @@
+Re Du Sautoy's book
+
+Glass says there is always emotion despite his best intentions
+
+Cope/EMI trikced a lot of people
+
+Hofstadter wondered how EMI could write music without ever really feeling the world
+
+
+My position:
+
+1. don't forget EMI is just a tool Cope is using while he composes. It suggests things, he decides to use them or not, he may also write some stuff himself. It's not writing complete pieces
+
+2. A lot of people who feel that Chopin expresses some beautiful part of the Polish national character and history would not feel that if they'd never read any part of biography. Hofstadter needs an a/b test not with computer music, but with some composer he's never heard of, to see whether he can identify the emotion that other people feel in it.
+
+3. Turing tests/ a/b tests are fake, of course, but the problem is that people lie to themselves. There's a story about a professor/listener at one of these concerts who blatantly revised his position when he found out which was which. Since people lie to themselves, we can't trust anything.
+
+4. A lot of emotion is on the part of the listener, not on the part of the composer. Similarly a lot of the intelligence we see in dogs is in the eye of the beholder. Not just "subjective", but actually created/moderated by the beholder.
+
+5. People say it can't have emotion because it's just a machine. My only problem with this sentence is the word "just". We are conscious of our "programming" in everything we do, and that doesn't make our feelings less real. Our feelings are what an algorithm feels like when you're executing it. A robot would be just the same. 
+
+
+
+
+Endel and Warner (jan 2019) 20 album deal with 5 sleep albums out already.
+
+Claim: "The albums are the first “app-as-an-artist” releases featured on Apple Music and iTunes", but this is quite silly. There are lots of albums already out there for you to buy which are computer generated in a perhaps stronger sense than Endel, including on iTunes, some decades old. So they must mean something like "the first time the computer generation code is also available as an app for iphone", which is an artificial distinction.
+
+Eg Laurie Spiegel
+
+Eg Brian Eno, who did a lot of computer generated stuff at different times. His 1993 album Neroli was just an extract from one of the settings in one of his pieces of generative software (of course, the code was not by him, but the art direction was)
+
+
+Endel UI: very nice loading animations -- would look at home on Black Mirror
+
+
+Music: grand. . "The musical phrases are composed by Dmitry Evgrafo" -- endel.io press release, so it's not exactly AI. There's some personalisation/parameterisation
+
+The idea of releasing these pre-made albums is a good gimmick -- good publicity stunt to drive traffic towards their app.
+
+Endel as an app is a competitor to brain.fm, but a bit cheaper.
+
+there have been lots of other systems, eg there were a few startups in Galway a few years ago working on parameterised music for film. Video games are another area where there's a lot of parameterised music already in use in 
+
+Where are we at now? Well, AI music is going places for sure.
+
+If you read the comment section on any AI music or AI art story, you'll find people saying "surely there has to be human emotion in art, otherwise it's not art" but this just misses the point. Art is about transcending boundaries anyway. These new developments can, if done well and with some appreciation of the art-historical context, become interesting contributions to the great conversation. It's good to see all art as part of a huge,  ongoing conversation among many artists. It's a conversation in the sense that artists respond to each other, by copying each other, by refuting each other, sometimes by deliberaltey trying to one-up each other, as the Beatles did with the Beach Boys.
+
+
+The Endel music sounds quite a bit like Eno, but perhaps more varied at times. You'd enjoy having it on in an art gallery on a rainy afternoon.
+
+Like a lot of this type of generative music, and I'm sometimes guilty of this myself in my own generative music, it sticks to certain styles and sounds where nothing ever sounds exactly "wrong" -- which makes the coding much easier.
+
+
+in research and development -- we are seeing more and more of these creative systems and design tools coming into existence, both in music and other forms of art. Ableton, GarageBand
+
+shout-out to Shawn Bell -- Net-works -- superb music, much more complex, and a much tighter margin of error -- it's a style of music where the algorithm plays a wrong note, the listener will know about it! And it really succeeds.
+
+
+
+
+it's good to think about the "AI ratio" -- in a piece of music, how much of it was produced by a human, and how much by computer? in the old days, the AI ratio was 0. Nowadays a lot of music has a little "AI" in it. But these algorithmic pieces are pushing for a high AI ratio, even up to 1. But Endel, I think, is not very high -- maybe 0.8.
+
+
+for modern art, if you don't have people on the outside looking in and saying "that's not art", then you're probably failing completely :)
+
+we can see AI music as modern art in this sense, that the use of AI is itself a contribution to the great conversation. This could be true, even if the music that comes out is not particularly interesting. But it will be convincing if AI music is genuinely surprising - the kind of thing no human would compose, but which we end up loving. We're not quite there, and Endel and Brain.fm and similar are nowhere near it I think, but there is plenty of work out there which is getting closer.
+
+Ada Lovelace with Charles Babbage
+
+
+
+https://www.bostonglobe.com/arts/2015/12/05/remembering-ada-lovelace-computer-music-prognosticator/f6fxfF9AXRG6XdQVz8DfpK/story.html
+
+1840s “Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of [mathematical] expression and adaptations,” Lovelace wrote, “the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.”
+
+
+
+
+More from Du Sautoy book:
+
+spotify - conspiracy theory they are using generated tracks at low royalty rates. DeepWatch received 5 m listens in a few months, by being curated on certain sleep/running playlists, but they don't seem to exist on the internet or as a live band.
+
+Eno with Chilvers, quite a few apps -- Eno says that if you create a piece using these apps, you are collaborating with the app authors (he and Chilvers)
+
+Pachet Continuator (trading jazz stuff) and Flow Machine -- very successful. Some expert listeners were again fooled in a Turing-test scenario, because the machine was pushing the boundaries of the genre in the more interesting way -- well, that suggests the genre is "too easy", to me.
+
+Endel: lots of fairly repetitive textural stuff, Eno-esque perhaps. Then a change. But meandering. Choice of pentatonic scale is fine if you make that choice for artistic reasons, but here it's just a symptom of their avoiding making any artistic commitment. They play notes which are not even wrong.
+
+Du Sautoy completely missing the point re pop music versus classical. He thinks pop music would be much easier to generate, but it would actually be much harder! A wrong note in pop music is very wrong. Lyrics etc.
+
+Good review of gentle piano music that sounds a bit like the soundtrack of Amelie: https://www.theguardian.com/technology/2017/jul/13/are-spotifys-fake-artists-any-good
+
+Massive Attack had a 4-song ep released via app which was user-personalised (heart rate etc)
+
+Nice quote: quantum music -- multiple compositions which collapse to one. Better: metacreation
+
+Distinguish between Mozart's musical dice game, Massive Attack, and Endel (putting together pre-composed fragments in a fairly simple way) and Eno's de-syncing tapes and deeper process-based generativity
+
+
+
+
+Some generative stuff:
+
+https://teropa.info/loop/#/title
+
+https://medium.com/@metalex9/introduction-to-generative-music-91e00e4dba11?sk=8afe1048f04b435267d353cc2a78da00
+
+https://medium.com/@metalex9/unlock-the-secret-generative-music-system-hidden-in-spotify-7eb00616389d
+
+
+https://generative.fm/music/alex-bainter-aisatsana
+
+
+
+https://news.ycombinator.com/item?id=19490832
+Jaepa 1 hour ago [-]
+Doom from 2016 had this really cool feature in it where the music was procedurally adaptive based on the context of the game. When you were getting into a battle the music would mutate and become a lot more aggressive. Small fights would be different from big hairy fights. Ending a fight on low health would be different from leaving it unscathed.
+For long time I've always thought it would be great to have something that had a similar effect based on text input speed.
+Situations like getting into a massive battle, or leaving a battle with low health would have the music mutate to
+fpgaminer 1 hour ago [-]
+The DOOM: Behind the Music (https://www.youtube.com/watch?v=U4FNBMZsqrY) talk is amazing if you like DOOM 2016's music.
+na85 1 hour ago [-]
+I believe the first mainstream game with adaptive music like that was Half Life 2 in 2004.
+hrydgard 26 minutes ago [-]
+Mario 64 did it in 1996. For example that early level with the shipwreck, the music morphs as you go into the water and dive around the wreck. If you go out of the water again the music morphs back to the original form
+
+
+
+Eno Reflection app
+
+
+additive rhythm:
+
+r = cell | r cell
+cell = twoBeatCell | threeBeatCell
+twoBeatCell = quarter | eighth eighth
+threeBeatCell = quarter eighth | eighth quarter | quarter quarter quarter
+quarter = qRest | qNote
+eighth = eRest | eNote
+
+
+
+
+https://creative.ai/
+
+
+https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0
+
+
+https://teropa.info/musicmouse/
+
+
+
+
+Impact of AI on society and on musicians, via displacement of employment.
+
+One of the big impacts of AI on society will be the displacement of employment. There will be less demand for human labour, hence we worry that people just won't be able to work for money. One proposed solution is UBI. But I heard Max Tegmark saying on the Lex Fridman MIT podcast, wouldn't it be better to just hire lots more teachers, nurses, etc? We could increase their wages, make their conditions better, allow them to spend more time on cases they need to spend time on. And maybe everyone could work a four-day week! That doesn't solve all the problems but it seems like it should be part of the policy mix. We should be able to enjoy the fruits of AI! Work-life balance!
+
+Now, how to apply this reasoning in the case of AI and music. I think it's already clear that some music composition and production tasks can be done very well, and very cheaply, by AI. The current situation is that when they are, the person who wrote the code, and curated the output, is just regarded as the composer, and whatever revenue might be generated just accrues to them. Which is fair enough. Usually that revenue is not a lot anyway because such people are fairly avant-garde. But there may be cases in game soundtracks where meaningful money is involved. It would certainly be a *pity* if human composers just couldn't make money, and only people who could program AI and then generate a lot of music cheaply could afford to sell their music cheaply and at scale in order to turn a profit. UBI might be a solution. And in this country and the UK, artists have for many years effectively used the dole as a type of UBI. However, wouldn't it be better for society to divert some of that UBI money towards the products that we actually want? Thus we should give some of it to artists, as already proposed for nurses and teachers. Maybe this just amounts to increased funding to the Arts Council. However, other models are possible. Maybe the scheme should involve some kind of matching scheme -- the council could either provide a subvention for concert tickets or download sales, or could provide matching funding to the artist for every ticket sold. I think incentives still matter. I'm still happy to have the Arts Council working as it does (in principle) by awarding grants to artists on the basis purely of artistic merit with no thought to commercial sales.
+
+Another aspect is the balance between live music and recorded music, and music in other scenarios such as games, movies, and apps. There is always something magical about live music and AI/robotics is a lot farther away from achieving that than just generative composition. The worry is always that we'll gravitate towards cheap music without really meaning to, in the same way we eat unhealthy foods and scroll through Facebook instead of reading Shakespeare. If that is the worry, then live music is an antidote by which we can show what we really value. 
+
+
+
+
+
+Question: is music composed by an AI necessarily generative?
+
+
+
+Anything that can be automated will be automated
+
+* because it will then be cheap, easy, fast, reliable
+* because we're curious
+* because it is "metacreation"
+
+in the latter sense, there is a stronger pro-creative argument. if we can automate these things, then maybe they weren't so magical and creative in the first place. it's better to automate them, and let humans concentrate and spend their time on the magical, creative parts. it might just turn out that writing impeccable counterpoint isn't a magical, creative act after all, but is a bit more like sudoku -- it's either drudge-work, or a pleasant and harmless way to waste your time, depending on your point of view.
+
+What we see in this festival and always in contemporary music is that the boundaries are being pushed -- one of the acts [Steven Takasugi’s Sideshow] makes the musicians into actors, almost. None of the AI systems could do that! Another [Katharina Rosenberger’s 2016 work If they bite with all their might] also blends music with theatre.
+
+Part of the prerequisities for work like this is that the audience and the performers trust the composer. They trust that the composer isn't making up random crap, or trying to fool them. It will be hard for AI to replicate that. In a sense, AI is at an unfair disadvantage in this respect!
+
+
+I think that sometimes audiences, let's say popular audiences, aren't too sure about contemporary music. The crowd to see a pop singer in the 3 Arena will be larger than the crowd at this festival. I think maybe it's useful for contemporary composers to look at AI-generated music as a case study to help them (us) understand how the man on the street feels about contemporary art music. It's not that the music is difficult exactly. But the whole thing could be "fake" -- a trick -- and how would we ever know? That's how some composers may feel about AI music. So I think it's a useful analogy, to put ourselves in someone else's shoes like that.
+
+
+Mick Grierson (Massive Attack) https://www.rewirefestival.nl/artist/mick-grierson
+
+Also the Sigur Ros 24-hour thing
+
+
+Summary
+
+Du Sautoy, Glass, Cope, Hofstadter
+
+Who is the composer/deserves credit/money? AI Ratio.
+
+Emotion/intelligence is in the eye of the beholder. That doesn't mean it's subjective. It means we the audience create the meaning -- we sometimes create more meaning than was explicitly put in by the composer.
+
+Endel/Warner -- not a big deal, nothing to worry about, mostly a publicity stunt. Music a bit bland inoffensive. Eno-esque - texture and random arrangement of nice inoffensive elements. Brain.fm. Also like Eno in that in principle it's generative, but that's mostly a good story. In practice, you just take a 1-hour selection and call that the album, and if you listen to the album you haven't missed much. Nothing ever sounds exactly wrong and nothing ever could sound wrong.
+
+Lovelace, Mozart, Cage, Pachet, Massive Attack -- quantum music - metacreation
+
+Game music
+
+Displacement of employment -- UBI -- Max Tegmark talking about nurses etc -- well what about the case of AI music? If it becomes cheap to generate good AI music, and human musicians can't make money, that is a case for more and better Arts Council aid
+
+
+
+
+Reply to @MichaelMoran: If this article was about Chinese rappers you wouldn't have wasted our time, and you certainly wouldn't have finished with a dismissive "next!!!". Well, "You’re not from here, you won’t get this." But it seems there's always someone who feels the need to tell us they don't understand Irish. Next.
+
+https://www.irishtimes.com/culture/music/kneecap-low-life-scum-of-west-belfast-rap-whose-day-has-come-1.3854738
+
+
+
+This panel was a lot of fun. Didn't manage to convey the idea about shared ownership/composition. UBI etc ok.
+
+electric Baton
+
+
+
+

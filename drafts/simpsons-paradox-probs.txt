@@ -1,0 +1,5 @@
+p(heart attack | no-drug, female) =  1/20 =  5%, but p(heart attack | drug, female) = 3/40 =  7.5%
+p(heart attack | no-drug,   male) = 12/40 = 30%, but p(heart attack | drug,   male) = 8/20 = 40%
+
+How can we calculate p(heart attack | no-drug) and p(heart attack | drug)? Or do we need p(heart attack | do(drug))? Or p(heart attack | male, do(drug))?
+
