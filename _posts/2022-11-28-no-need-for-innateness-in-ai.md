@@ -17,7 +17,7 @@ However, this can't be taken as evidence that we have to program AI systems with
 
 Some people argue that evolutionary learning of this type is not learning. This is a clear-cut case of [disputing definitions](https://www.lesswrong.com/posts/7X2j8HAkWdmMoS8PE/disputing-definitions). Tom Mitchell would say this *is* learning: "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E." Here, T consists of the tasks of *lifetime* learning, while E is the experience of many organisms' success or otherwise.
 
-But I don't care whether we call evolution "learning" or not! The point is that if wanted to, we could design an AI system in the same way. Everything that pro-innateness people want to build in, we could instead learn.
+But I don't care whether we call evolution "learning" or not! The point is that if we wanted to, we could design an AI system in the same way. Everything that pro-innateness people want to build in, we could instead learn.
 
 Maybe that would work well, maybe not -- I'll talk more about that below. Maybe there are other reasons to argue in favour of innateness. But **the human brain provides no evidence in favour of innateness in AI systems**.
 
