@@ -13,10 +13,10 @@ I read some great comments on Mastodon: "#chatgpt is like using a car in a footr
 
 But other cases are different. For example, there is the story of the old mechanic ([one version](https://www.buzzmaven.com/old-engineer-hammer-2/), [more versions](https://www.snopes.com/fact-check/know-where-man/)), which goes like this:
 
-    A customer brings their car to the old mechanic. He listens to the engine for a minute, then taps it with a hammer, and the problem is fixed. The bill is $100. The customer is outraged and demands an itemized bill.
-
-    * Tapping the engine: $5
-    * Knowing where: $95.
+> A customer brings their car to the old mechanic. He listens to the engine for a minute, then taps it with a hammer, and the problem is fixed.The bill is $100. The customer is outraged and demands an itemized bill.
+> 
+> * Tapping the engine: $5
+> * Knowing where: $95.
 
 Now the real point is that knowing where to tap isn't as easy as it looks: you have to put in a lot of effort to make it look, eventually, easy. The story works because it plays with our concept of effort and reward. The mechanic's real effort, which deserves financial reward, is *displaced*: it is in his years of training and experience.
 
@@ -24,10 +24,10 @@ But let's think about some other things that are just as hard for humans, but in
 
 Wicked problems arise all the time in the real world, for example in social policy, and in engineering, design, and art. The setting I'm most familiar with is in architecture: 
 
-    Schön characterises designing as a reflective conversation with the
-    materials of a situation. The designer is making a move in the design process
-    that causes changes which, in turn, talk back and provoke a response by the
-    designer to the situation's back-talk. [Ammon](https://ead.yasar.edu.tr/wp-content/uploads/2017/02/EAD11_Ammon_Reflection-in-Action-Scho%CC%88n-Reconsidered.pdf). 
+> Schön characterises designing as a reflective conversation with the
+> materials of a situation. The designer is making a move in the design process
+> that causes changes which, in turn, talk back and provoke a response by the
+> designer to the situation's back-talk. [Ammon](https://ead.yasar.edu.tr/wp-content/uploads/2017/02/EAD11_Ammon_Reflection-in-Action-Scho%CC%88n-Reconsidered.pdf). 
 
 
 The opposite of a wicked problem is a *tame* problem -- the type of problem that arises in chess, and often, perhaps, in science. In a tame problem, there's a definite end-point and you can't [jump out of the system](http://www.jmmcd.net/2022/12/04/ai-and-music-five-cases-and-daft-punk.html). Some humans have good intuition for approaching wicked problems, and some humans are good at chess, but they seem quite different skills. (They are also sophisticated, adult skills, so this isn't an example of [Moravec's paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox)).
