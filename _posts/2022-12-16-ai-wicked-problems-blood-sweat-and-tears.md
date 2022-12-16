@@ -27,7 +27,7 @@ Wicked problems arise all the time in the real world, for example in social poli
 > Schön characterises designing as a reflective conversation with the
 > materials of a situation. The designer is making a move in the design process
 > that causes changes which, in turn, talk back and provoke a response by the
-> designer to the situation's back-talk. [Ammon](https://ead.yasar.edu.tr/wp-content/uploads/2017/02/EAD11_Ammon_Reflection-in-Action-Scho%CC%88n-Reconsidered.pdf). 
+> designer to the situation's back-talk. -- [Ammon](https://ead.yasar.edu.tr/wp-content/uploads/2017/02/EAD11_Ammon_Reflection-in-Action-Scho%CC%88n-Reconsidered.pdf). 
 
 
 The opposite of a wicked problem is a *tame* problem -- the type of problem that arises in chess, and often, perhaps, in science. In a tame problem, there's a definite end-point and you can't [jump out of the system](http://www.jmmcd.net/2022/12/04/ai-and-music-five-cases-and-daft-punk.html). Some humans have good intuition for approaching wicked problems, and some humans are good at chess, but they seem quite different skills. (They are also sophisticated, adult skills, so this isn't an example of [Moravec's paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox)).
