@@ -40,7 +40,7 @@ evolutionary design); and
 
 
 
-* [My Mastodon, @jmmcd@mastodon.social](https://mastodon.social/@jmmcd)
+* <a rel="me" href="https://mastodon.social/@jmmcd">My Mastodon, `@jmmcd@mastodon.social`</a>
 * [Unspoken Consensus, my Substack](http://jmmcd.substack.com)
 * [My publications in Google Scholar](https://scholar.google.com/citations?user=nKNOv8oAAAAJ)
 * [My ORCID](https://orcid.org/0000-0002-1402-6995)
