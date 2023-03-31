@@ -1,5 +1,8 @@
 ---
 title: AI Seasons
+layout: post
+tags: artificial_intelligence
+author: James McDermott
 ---
 
 AI is having a moment in the sun right now.
