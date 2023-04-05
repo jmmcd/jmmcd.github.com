@@ -2,6 +2,9 @@
 title: Personas and Goals in Language Models
 ---
 
+# Personas and Goals in Language Models
+
+
 > "Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.)" -- Walter White
 
 I've been reading about AI for a long time, and sometimes doing research in a field that is broadly called AI. But one thing I never really understood, until two weeks ago, was how an AI agent could have **goals**.
