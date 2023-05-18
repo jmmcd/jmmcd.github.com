@@ -23,7 +23,7 @@ First, here is a statement of the **Persona Model** of LMs:
 2. Personas are weighted by prevalence in the data. Harry Potter is probably a "larger" persona than Abraham Lincoln. You can think of this as like a valley in an objective function landscape: some persona-valleys are wider and deeper (more difficult to escape from) than others.
 3. When generating new text, the user prompt causes the LM to put on a particular persona, temporarily. 
 4. Hybrid personas can be created by the user prompt. Hybrids allow a persona to access information it wouldn't normally. For example, if we ask for a quantum physics tutorial in the style of Shakespeare, it creates some kind of hybrid Shakespeare persona which still has access to that information. 
-5. RLHF greatly up-weights the "friendly chatbot" persona, to the point that elaborate jailbreaks are required to escape that persona-valley. 
+5. RLHF greatly up-weights the "friendly chatbot" persona (broadening and deepening that persona-valley), to the point that elaborate jailbreaks are required to escape that persona-valley. 
 6. Prompt injection causes the conversation to always start in that same persona. 
 
 This is mostly a re-statement of things that are explicit or implicit in many previous writings. I don't know who originated it, but I will mention at least:
