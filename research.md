@@ -31,7 +31,7 @@ funding are sometimes available. Please contact me with a CV if interested, but 
 I was lucky to be the supervisor, co-supervisor, or mentor of the following excellent researchers who have now finished and moved on to exciting new positions and projects:
 
 * [Filipe Assunção](https://scholar.google.com/citations?user=qg-jmM4AAAAJ&hl=en&oi=ao) graduated MSc, University of Coimbra, 2015. Now Lead Research Scientist at OutSystems, Lisbon.
-* [Loi Van Cao](https://scholar.google.com/citations?user=7A6srrQAAAAJ&hl=en) graduated PhD, UCD Computer Science, 2018. Now Lecturer at Le Quy Don University, Vietnam
+* [Loi Van Cao](https://scholar.google.com/citations?user=7A6srrQAAAAJ&hl=en) graduated PhD, UCD Computer Science, 2018. Now Lecturer at Le Quy Don University, Vietnam.
 * [Stefano Mauceri](https://scholar.google.com/citations?hl=en&user=386TpcYAAAAJ) graduated PhD, UCD Business, 2020. Now working in Huawei Ireland.
 * [Michael Mescal](https://www.irishtimes.com/business/technology/en-perium-makes-life-a-lot-easier-for-building-professionals-1.3328762) graduated PhD, UCD, 2023, co-supervised with Prof. Beth Shotton, UCD. Now in ATU Architecture.
 * [Abdul Shahid](https://scholar.google.com/citations?user=gOjuEUgAAAAJ&hl=en&oi=ao), post-doc researcher in University of Galway, working on knowledge graphs as part of [Polifonia](https://polifonia-project.eu/). Now in National College of Ireland.
@@ -39,11 +39,14 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 
 ## Current team
 
-* [Danny Diamond](https://dannydiamond.ie/), PhD student in University of Galway, co-supervised with Mathieu d'Aquin, working on pattern discovery in traditional Irish dance music as part of [Polifonia](https://polifonia-project.eu/).
+* [Danny Diamond](https://dannydiamond.ie/), PhD student in University of Galway, working on pattern discovery in traditional Irish dance music as part of [Polifonia](https://polifonia-project.eu/). Co-supervised with Mathieu d'Aquin, LORIA Lab, Université de Lorraine, France.
 * [Pushkar Jajoria](https://ch.linkedin.com/in/pushkar-jajoria), research assistant in University Galway, working on lyrics alignment and user interfaces for patterns as part of [Polifonia](https://polifonia-project.eu/).
 * [Fitria Wulandari](https://fitriaramlan.github.io/Portfolio/), PhD student in University of Galway, working on genetic programming and symbolic regression, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/).
-* [Maziar Kanani](https://soundcloud.com/maziar-kanani), PhD student in University of Galway, working on generative music by program synthesis, as part of the [SFI D-REAL Centre for Research Training ](https://d-real.ie/). Co-supervised with Prof. Sean O'Leary, DCU.
-* [Jiaolin Luo](https://scholar.google.com/citations?hl=en&user=X33n9mAAAAAJ), PhD researcher in University of Galway working on robustness of neural network models, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/). Co-supervised with Prof. Colm O'Riordan.
+* [Maziar Kanani](https://soundcloud.com/maziar-kanani), PhD student in University of Galway, working on generative music by program synthesis, as part of the [SFI D-REAL Centre for Research Training ](https://d-real.ie/). Co-supervised with Prof. Seán O'Leary, Dublin City University.
+* [Róisín (Jiaolin) Luo](https://scholar.google.com/citations?hl=en&user=X33n9mAAAAAJ), PhD researcher in University of Galway working on robustness of neural network models, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/). Co-supervised with Prof. Colm O'Riordan.
+* [Chloe Dalton](https://www.linkedin.com/in/chloe-dalton-b87747206/), PhD researcher in University of Galway and in Ward & Burke Construction Ltd., working on data science and machine learning for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by SFI. Co-supervised with Prof. Eoghan Clifford, Civil Engineering, University of Galway.
+* [Alaz Okudan](https://scholar.google.com/citations?user=0UXcs0kAAAAJ), PhD researcher in the Centre for Creative Technologies in the College of Arts, University of Galway, working on aesthetics and AI. Co-supervised by Prof. Padraic Killeen, College of Arts, University of Galway.
+* [Joao Duarte], PhD researcher in Dublin City University, working on physically-informed sound synthesis. Co-supervised with Prof. Seán O'Leary, Dublin City University.
 
 
 ## Code
