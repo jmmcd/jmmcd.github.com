@@ -79,6 +79,6 @@ We sometimes hear speculation that AIs could communicate by direct transfer of e
 
 # Us against the AI, in the real world
 
-One last interesting angle: in Chess 960, where the starting position is different from standard, we see very interesting and different behaviours from normal chess. Some players are much weaker than in normal chess and that's quite revealing. 
+One last interesting angle is Chess 960, where the starting position is different from standard. We see very interesting and different behaviours from normal chess. Some players are much weaker than in normal chess and that's quite revealing. 
 
-But my favourite observation is this. In Chess 960, players spend a lot more time on the first few moves, because it's possible to lose very suddenly with one wrong move in an opening position you don't understand. Something we should bear in mind if we ever consider trying to outwit a very powerful AI.
+But my favourite observation in 960 is this. In Chess 960, players spend a lot more time on the first few moves than in normal chess. Because when you don't understand the position well, it's possible to lose almost before you begin with a single weak move. Something we should bear in mind if we ever consider trying to outwit a very powerful AI.
