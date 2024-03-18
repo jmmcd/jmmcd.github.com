@@ -1,7 +1,7 @@
 ---
 title: "Reflections on Trusting AI"
 author: James McDermott
-date: today
+date: 2024/03/18
 ---
 
 # Reflections on Trusting AI
