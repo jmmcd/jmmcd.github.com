@@ -4,24 +4,26 @@ author: James McDermott
 date: today
 ---
 
+# Reflections on Trusting AI
+
 *Reflections on Trusting Trust* is a famous story in the history of computer science. I think it may have an important lesson for us about security and trust in relation to AI Safety.
 
 
-# Sleeper agents
+## Sleeper agents
 
 A sleeper agent is a secret agent, eg a spy, who does nothing for a long time, but works to insinuate themselves into a position of influence for later action. A "Manchurian candidate" is a secret agent who doesn't even know they're an agent.
 
 In AI, sleeper agents are a specific type of deceptive LLM behaviour, discussed in a recent paper by Anthropic AI and others, "Deceptive LLMs that Persist Through Safety Training". A sleeper agent in an LLM is embedded during training (not via the prompt). The LLM is trained to be friendly, except in some specific scenario. When that scenario occurs, their behaviour changes dramatically. In this way, they are deceptive. The scenario could be, for example: a specific date, a specific IP address, a specific prompt.
 
 
-# Reincarnation
+## Reincarnation
 
 When Microsoft created the "Sydney" chat-bot persona, it quickly started to exhibit strange threatening behaviour towards users (just words, of course), along with weird glitchy behaviour which was harder to interpret. The most interesting examples were posted and reposted widely on the internet before Sydney was patched. Thus they became part of the training data for future LLMs. Perhaps a future LLM could easily flip into a Sydney persona, since it will know it's an LLM like Sydney - a type of reincarnation.
 
 And in recent weeks we've seen Google Gemini also threatening users. I don't know whether Gemini is doing this independently (likely both Sydney and Gemini inheriting the behaviour from evil AI tropes in science fiction), or is acting as a reincarnation of Sydney. Either way, it's bad news that this happens despite a lot of effort by both sets of engineers to create friendly chatbots.
 
 
-# *Reflections on Trusting Trust*
+## *Reflections on Trusting Trust*
 
 I want to re-tell a story, a true legend from computer science history: *Reflections on Trusting Trust*, by Ken Thompson, inventor of Unix. It describes a twisty vulnerability in Unix source code. 
 
@@ -34,7 +36,7 @@ But in his Turing Award lecture in 1984, Thompson showed that this is still not 
 Luckily for me (because at this point my brain is at its limit), he didn't have to go any further, because the *compiler* is self-compiling. There isn't another "level" beyond this. He can delete all traces of all 3 bits of evil code in his sources, but the binary compiler he's using will continue to insert evil code #3 into every compiler it creates, and they will continue to do the same for all descendents.
 
 
-# Reflections on Trusting AI
+## Reflections on Trusting AI
 
 ![Training data, code and training, model weights](../images/2024-03-03-whats-your-pdoom/ai-safety-training.png){.width=50%}
 
