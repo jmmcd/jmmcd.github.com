@@ -54,13 +54,13 @@ The Llama open weights have been copied and fine-tuned by many users (and fine-t
 
 
 
-# Surreptitious communication
+## Surreptitious communication
 
 We've already seen that LLMs are pretty good at various types of surreptitious communication. An LLM can encode a secret message in the initial letters of each sentence, for example. And it can also detect such messages, if hinted to look for them. This could be useful for two evil LLMs which want to coordinate secretly.
 
 But there is a variant which I find even scarier. Let's suppose a single AI was created by some process which failed to ensure its friendliness. But let's suppose we monitored it very carefully, and it concealed its evil intentions. If at some point it had the opportunity to spin up a new AI, even if that new AI is trained very carefully, the original AI could provide an initial prompt to it which included surreptitious instructions, flipping it into an evil persona.
 
-# Conclusion
+## Conclusion
 
 I don't feel confident about any of this twisty, cunning logic. The original *Trusting Trust* attack is enough to make my head spin. I wouldn't be surprised if we find out next year that there's another layer to the *Trusting Trust* attack, never revealed by Thompson, which has placed another vulnerability in all of our systems all these years.
 
