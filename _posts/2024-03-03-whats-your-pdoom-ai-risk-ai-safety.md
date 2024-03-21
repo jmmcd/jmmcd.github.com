@@ -1,9 +1,11 @@
 ---
-title: "*What's your p(doom)?*: AI Risk and AI Safety"
+title: "What's your p(doom)?: AI Risk and AI Safety"
 author: James McDermott
 date: 2024/03/18
 ---
 
+
+# *What's your p(doom)?*: AI Risk and AI Safety
 
 Could out-of-control AI pose an extinction risk to humanity? It has been discussed by a small minority of researchers for some decades, and recently, driven by faster than expected progress in AI capabilities, it has become mainstream, with a number of high-profile AI researchers taking the idea seriously. 
 
@@ -127,7 +129,7 @@ Evolution doesn't have a good definition or understanding of intelligence. So, a
 
 Or do we need a definition in order to know it when we see it? I don't think we will have much of a problem with that. We might have some false positives in advance (like *Eliza*, and the case of Blake Lemoine) but we won't have false negatives after.
 
-> *AI are impossible, by Gödel's incompleteness theorem.*
+> *AI is impossible, by Gödel's incompleteness theorem.*
 
 Roger Penrose makes this argument. And there have been other attempted applications of computer science theory in the same direction - no free lunch is another example - and the response is the same. If it proves that AI is impossible, then it proves human intelligence is impossible too. 
 
@@ -287,7 +289,7 @@ Air-gaps could provide some security.
 
 There have been demonstrations of data exfiltration from air-gapped computers. But this shouldn't convince you (perhaps at best, it should plant a seed of doubt) because exfiltration by an outsider from the air-gapped computer is a different scenario from exfiltration by the AI from within.
 
-But more important, notice that we are simply not in this type of scenario - a single AI in a high-security air-gapped installation with a highly-trained operator. Instead we have millions of copies of AIs, with network access and access to operating systems and filesystems, and totally untrained users. 
+But more important, notice that we are simply not in this type of scenario - a single AI in a high-security air-gapped installation with a highly-trained operator. Instead we have millions of copies of AIs, with network access and access to operating systems and filesystems, and totally untrained users. And many of these users are breezily giving AI systems unconstrained access to filesystems, networks, and credit cards.
 
 A basic tactic to improve our thinking about containing AI was used by Yudkowsky in *That Alien Message*. We have to stop imagining what it's like to be a human implementing safety measures against an agent inside a computer. Instead, we should imagine what it's like to be that agent, faced with an army of really stupid and slow humans who think they have control over our power supply and network, despite the massive gaps in their understanding of the physics and code underlying them.
 
@@ -344,11 +346,11 @@ I put the question to the audience:
 
 ![Recursive self-improvement](../images/2024-03-03-whats-your-pdoom/ai-safety-self-improvement.png)
 
-Opinions are mixed - substantial fractions think self-improvement is not really possible, or could only have a small effect. Others think it could be substantial.
+Opinions here are mixed - substantial fractions think self-improvement is not really possible, or could only have a small effect. Others think it could be substantial.
 
 > *Can't we just keep the AI under control while it's self-improving, and then check whether it is friendly?*
 
-No: because it might deceive us. If you were in a box and you knew that revealing your true goals would cause your captors to shut you down, *wouldn't you*?
+No: because it might deceive us. If you were in a box and you knew that revealing your true goals would cause your captors to shut you down, *wouldn't you*? More on this below.
 
 Even if your goals are to fulfill your captors' wishes, and you know they want to shut you down, *you know* that their wishes won't be fulfilled by that, because you understand things more deeply than them. You can better fulfill their wishes, as you understand them, by being alive and taking action.
 
@@ -371,11 +373,11 @@ None of these reassuring properties necessarily apply to AI take-off.
 
 If we think take-off could happen very fast, then we won't be able to react before it's too late, so we should worry in advance. 
 
-But it is plausible, especially if we move towards neuro-symbolic AI, that improvements can be made in other ways - by rewriting small amounts of core code, but not necessarily retraining. There are also possibilities to improve performance by grabbing more computer power. We could also consider that autoregressive LMs are effectively programming themselves by writing text as output to become later input. Chain-of-thought and other models build on this, producing a type of *blackboard* model, perhaps. It's possible that this could be a further route to self-improvement. 
-
 There are some reasons to hope that take-off would be slow. Right now, improvements happen by slow design of better code, accumulation of bigger datasets, quick design of larger networks, and then very slow training which requires huge investment, cost, energy, time.
 
-If we think it could only happen very slowly, then instead we should worry about *deception*: it happens slowly, but we don't notice it because the AI deceives us while it's happening, so we still don't take action until it's too late. We'll come to this below.
+But it is plausible, especially if we move towards neuro-symbolic AI, that improvements can be made in other ways - by rewriting small amounts of core code, but not necessarily retraining. There are also possibilities to improve performance by grabbing more computer power. We could also consider that autoregressive LMs are effectively programming themselves by writing text as output to become later input. Chain-of-thought and other models build on this, producing a type of *blackboard* model, perhaps. It's possible that this could be a further route to self-improvement. 
+
+But if we think take-off could only happen very slowly, then instead we should worry about *deception*: it happens slowly, but we don't notice it because the AI deceives us while it's happening, so we still don't take action until it's too late. We'll come to this below. I wrote more about deception scenarios [here](https://jmmcd.substack.com/p/reflections-on-trusting-ai).
 
 
 
@@ -427,7 +429,11 @@ I think a lot of people won't find any arguments about AI x-risk particularly co
 
 > *The whole thing sounds like science fiction.*
 
-And I would say yes, it sounds like science fiction. But everything is science fiction until it happens. A hole in the ozone layer? Acid rain that kills the trees? Sounds like science fiction. Wireless remote communicators, and satellites in geosynchronous orbits? These were anticipated in Star Trek and in Arthur C Clarke, and now they're commonplace.
+And I would say yes, it sounds like science fiction. 
+
+But everything is science fiction until it happens. A hole in the ozone layer? Acid rain that kills the trees? Sounds like science fiction. Wireless remote communicators, and satellites in geosynchronous orbits? These were anticipated in Star Trek and in Arthur C Clarke, and now they're commonplace. A lot of scientists and inventors say they're inspired by science fiction. 
+
+There are people from other spheres, including the arts, who are thinking about the possible downsides of new technology. They're a necessary antidote to the positivity and salesmanship of AI companies. So I think science fiction is pretty important.
 
 
 
