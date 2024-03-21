@@ -8,6 +8,7 @@ date: 2024/03/18
 
 *Reflections on Trusting Trust* is a famous story in the history of computer science. I think it may have an important lesson for us about security and trust in relation to AI Safety.
 
+(Cross-posted on [Substack](https://jmmcd.substack.com/p/reflections-on-trusting-ai).)
 
 ## Sleeper agents
 
@@ -27,7 +28,7 @@ And in recent weeks we've seen Google Gemini also threatening users. I don't kno
 
 I want to re-tell a story, a true legend from computer science history: *Reflections on Trusting Trust*, by Ken Thompson, inventor of Unix. It describes a twisty vulnerability in Unix source code. 
 
-![Code, compiler, binary](../images/2024-03-03-whats-your-pdoom/ai-safety-compiler.png){.width=50%}
+![Code, compiler, binary](../images/2024-03-03-whats-your-pdoom/ai-safety-compiler.png)
 
 In ordinary software, we write code, and the compiler turns it into a binary executable. The executable is opaque: you can run it, but you can't really read it. If someone gives you an executable and you run it, you are trusting the person who gave it to you. Even if they show you the source code, well, you don't have any way to know they used *that* source code to create the executable. The solution to this is to have your own copy of the source code, and compile it yourself.
 
@@ -38,7 +39,7 @@ Luckily for me (because at this point my brain is at its limit), he didn't have 
 
 ## Reflections on Trusting AI
 
-![Training data, code and training, model weights](../images/2024-03-03-whats-your-pdoom/ai-safety-training.png){.width=50%}
+![Training data, code and training, model weights](../images/2024-03-03-whats-your-pdoom/ai-safety-training.png)
 
 Now, in neural networks, we have a situation which many people have remarked is analogous to source code and compilation to binaries. We have a set of training data. And we have the source code for the model and for its training. The training procedure produces a set of model weights from the training data. Just like with the binary executable, you can run a model, and even test it, but you can't really read it. 
 
