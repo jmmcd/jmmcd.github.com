@@ -462,8 +462,7 @@ Thanks also to Fergal Reid for discussion.
 
 Further evidence that AI could be the greatest hero or the greatest villain ever, here is the author **winning** a "Heroes and Villains"-themed charity run in University of Galway in February 2024, *while wearing a ChatGPT logo*. 
 
-<img src="../../../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg" width=50%>Heroes and Villains</img>
-
+<img src="../../../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg" width="50%">
 
 
 # Readings
