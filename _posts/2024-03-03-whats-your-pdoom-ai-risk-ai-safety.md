@@ -15,7 +15,7 @@ Of course, AI x-risk is not the only AI issue we need to worry about. We are not
 
 This article is intended as an introduction to the topic, and a synthesis of a large amount of discussion - much of it on blogs, podcasts, or Twitter, not academic literature - but that is the nature of the field. The article includes few direct citations or links, but a list of recommended readings at the end.
 
-My position is broadly that AI x-risk is real and is worth considering. In the longest section of this article I'll try to present a short statement of various common or common-sense arguments *against* that position, and follow each one up with my reply. Following that I'll discuss issues of deception. 
+My position is broadly that AI x-risk is real and is worth considering. In the longest section of this article I'll try to present a short statement of various common or common-sense arguments *against* that position, and follow each one up with my reply. In a few places, I'll include results from a highly informal survey I ran with the audience when I gave (a version of) this essay as a talk, in University of Galway, 31 January 2024.
 
 But first, a little history: from Turing to today.
 
@@ -206,9 +206,9 @@ We don't know how to do that. Programming it to maximise the number of smiles on
 
 This is the problem of *blind optimisation*.
 
-![Blind optimisation](../images/2024-03-03-whats-your-pdoom/icon-blind-optimisation.png)
+![Blind optimisation](../../../images/2024-03-03-whats-your-pdoom/icon-blind-optimisation.png)
 
-Depending on how exactly we create it (eg, if we try to define a numerical objective function to be maximised), an AI might be very focussed on a single goal. We would call it monomaniacal, because humans never focus on a single goal, either at the level of terminal goals (ultimate goals) or the level of instrumental goals (goals which are just a means to some other end). With terminal goals, a naive reader might think there is a single goal, which is genetic fitness measured by number of descendents. But even though that was *evolution's* "terminal goal" (scare-quotes for teleological phrasing), humans do not really pursue that single goal monomaniacally (and partly for that reason, often don't achieve it). And when pursuing instrumental goals, like gaining money, or eating tasty food, humans pause, introspect, and check whether the current goal is going to damage some other goal, if we take it too far. 
+Depending on how exactly we create it (eg, if we try to define a numerical objective function to be maximised), an AI might be very focussed on a single goal. We would call it monomaniacal, because that's what we call a human focussed on a single goal. Well-adjusted humans don't do that, either at the level of terminal goals (ultimate goals) or the level of instrumental goals (goals which are just a means to some other end). With terminal goals, a naive reader might think there is a single goal, which is genetic fitness measured by number of descendents. But even though that was *evolution's* "terminal goal" (scare-quotes for teleological phrasing), humans do not really pursue that single goal monomaniacally (and partly for that reason, often don't achieve it). And when pursuing instrumental goals, like gaining money, or eating tasty food, humans pause, introspect, and check whether the current goal is going to damage some other goal, if we take it too far. 
 
 
 
@@ -222,7 +222,7 @@ I think yes, this could possibly help. However, I don't think there is any RLHF 
 
 *Instrumental convergence* is the idea that no matter what your ultimate goals, your instrumental goals will tend to be the same: power, resources, autonomy. Whether the AI wants paperclips, or minimising or maximising some measure of entropy somewhere, or some goal related to human affairs, or long-term survival and reproduction - among the first things it should do are: put in place plans to avoid being shut down or losing its autonomy, and acquire power and resources to allow it to take action.
 
-![Instrumental convergence](../images/2024-03-03-whats-your-pdoom/icon-instrumental-convergence.png)
+![Instrumental convergence](../../../images/2024-03-03-whats-your-pdoom/icon-instrumental-convergence.png)
 
 If these goals can be best accomplished by eliminating humans, then it might try to do that. But even if humans are basically irrelevant to these goals:
 
@@ -233,7 +233,7 @@ If these goals can be best accomplished by eliminating humans, then it might try
 
 In humans, perhaps there's some evidence of this association, though probably it's correlational, not causal. But among agents in general, there's no reason to hope for this. 
 
-![The orthogonality thesis](../images/2024-03-03-whats-your-pdoom/icon-orthogonality-thesis.png) 
+![The orthogonality thesis](../../../images/2024-03-03-whats-your-pdoom/icon-orthogonality-thesis.png) 
 
 The *orthogonality thesis* is just this: an agent could have any set of goals, independent of its level of intelligence.
 
@@ -285,7 +285,7 @@ If you think someone will unplug the AI: **who** will do that, and **when**?
 
 Air-gaps could provide some security.
 
-![air-gaps](../images/2024-03-03-whats-your-pdoom/airgap.jpg)
+![air-gaps](../../../images/2024-03-03-whats-your-pdoom/airgap.jpg)
 
 There have been demonstrations of data exfiltration from air-gapped computers. But this shouldn't convince you (perhaps at best, it should plant a seed of doubt) because exfiltration by an outsider from the air-gapped computer is a different scenario from exfiltration by the AI from within.
 
@@ -328,7 +328,7 @@ Some people talk about hacking. Certainly, capability in hacking would help the 
 
 But for me, all of this discussion about specific scenarios misses the point. It's a bit like pitting a very good chess player against the world champion. Can we describe the specific moves the champion will use to win? Can the other player know exactly how they will lose, before the game starts? Not really. But they'll still lose.
 
-(Christianini also wrote that "it is important to maintain a sense of proportion" - but since we are talking about sudden human extinction, I think we should interpret this as a call for immediate and drastic action.)
+(Christianini also wrote "it is important to maintain a sense of proportion", but this is just dressing up as an adult. Since we are talking about sudden human extinction, maintaining a sense of proportion ought to mean taking immediate and drastic action.)
 
 
 
@@ -338,13 +338,15 @@ But for me, all of this discussion about specific scenarios misses the point. It
 
 A central issue in some AI Safety debates is whether "take-off" would be fast or slow. "Take-off" is the period of time during which AI intelligence and generality are growing, from definitely below human-level to definitely above. For the purpose of discussing this speed, let's assume that AGI/ASI is indeed possible, so "take-off" is at least well-defined. One of the main reasons to think that take-off could be fast is that it could be *recursive self-improvement*, ie an "intelligence explosion".
 
+![Intelligence Explosion](../../../images/2024-03-03-whats-your-pdoom/icon-intelligence-explosion.png)
+
 > *Is recursive self-improvement really possible?*
 
 We've already discussed whether AGI/ASI are really possible, so now we'll assume they are. If so, IJ Good's argument seems strong.
 
 I put the question to the audience:
 
-![Recursive self-improvement](../images/2024-03-03-whats-your-pdoom/ai-safety-self-improvement.png)
+![Recursive self-improvement: is it possible and important?](../../../images/2024-03-03-whats-your-pdoom/ai-safety-self-improvement.png)
 
 Opinions here are mixed - substantial fractions think self-improvement is not really possible, or could only have a small effect. Others think it could be substantial.
 
@@ -411,7 +413,7 @@ Obviously, an AI which genuinely worked for us would be a fantastic tool with ma
 
 However, it's not clear that we really need autonomous and general AI for these benefits. Could we get most of the benefits from narrow AI, and avoid most of the dangers? I put this question to an audience during a talk and got these results:
 
-![Benefits of narrow AI](../images/2024-03-03-whats-your-pdoom/ai-safety-benefits.png)
+![Benefits of narrow AI](../../../images/2024-03-03-whats-your-pdoom/ai-safety-benefits.png)
 
 I think we could program lots of specialist AIs to help us with specific problems. Part of my thinking here is that I'm fundamentally optimistic that we have all the tools we need to solve most of our problems, we just lack political will to really work on them and accept the essential trade-offs. An AI won't help with that.
 
@@ -435,6 +437,15 @@ But everything is science fiction until it happens. A hole in the ozone layer? A
 
 There are people from other spheres, including the arts, who are thinking about the possible downsides of new technology. They're a necessary antidote to the positivity and salesmanship of AI companies. So I think science fiction is pretty important.
 
+Let's finish up with two more pieces of data from the same survey:
+
+![p(doom)](../../../images/2024-03-03-whats-your-pdoom/ai-safety-pdoom.png)
+
+Lots of people have non-zero *p(doom)*.
+
+![timeline](../../../images/2024-03-03-whats-your-pdoom/ai-safety-timeling.png)
+
+And lots of people think it's not too far away.
 
 
 
@@ -449,9 +460,9 @@ Thanks also to Fergal Reid for discussion.
 
 # The duality of AI
 
-As evidence that AI could be the greatest hero or the greatest villain ever, here is the author **winning** a "Heroes and Villains"-themed charity run in University of Galway, *while wearing a ChatGPT logo*. 
+As evidence that AI could be the greatest hero or the greatest villain ever, here is the author **winning** a "Heroes and Villains"-themed charity run in University of Galway in February 2024, *while wearing a ChatGPT logo*. 
 
-![Heroes and Villains](../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg)
+![Heroes and Villains](../../../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg)
 
 
 
