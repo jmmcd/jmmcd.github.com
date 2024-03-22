@@ -443,7 +443,7 @@ Let's finish up with two more pieces of data from the same survey:
 
 Lots of people have non-zero *p(doom)*.
 
-![timeline](../../../images/2024-03-03-whats-your-pdoom/ai-safety-timeling.png)
+![timeline](../../../images/2024-03-03-whats-your-pdoom/ai-safety-timeline.png)
 
 And lots of people think it's not too far away.
 
@@ -460,10 +460,9 @@ Thanks also to Fergal Reid for discussion.
 
 # The duality of AI
 
-As evidence that AI could be the greatest hero or the greatest villain ever, here is the author **winning** a "Heroes and Villains"-themed charity run in University of Galway in February 2024, *while wearing a ChatGPT logo*. 
+Further evidence that AI could be the greatest hero or the greatest villain ever, here is the author **winning** a "Heroes and Villains"-themed charity run in University of Galway in February 2024, *while wearing a ChatGPT logo*. 
 
-![Heroes and Villains](../../../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg)
-
+<img src=../../../images/2024-03-03-whats-your-pdoom/heroes-and-villains-rag-run.jpg width=50%>Heroes and Villains</img>
 
 
 
