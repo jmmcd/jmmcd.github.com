@@ -26,7 +26,7 @@ funding are sometimes available. Please contact me with a CV if interested, but 
 * [My ORCID](http://orcid.org/0000-0002-1402-6995)
 * [My reviews in Publons](https://publons.com/author/402776/james-mcdermott)
 
-## Former students
+## Former students and researchers
 
 I was lucky to be the supervisor, co-supervisor, or mentor of the following excellent researchers who have now finished and moved on to exciting new positions and projects:
 
@@ -38,7 +38,7 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 * [Pushkar Jajoria](https://ch.linkedin.com/in/pushkar-jajoria), was Research Assistant in University of Galway, working on drum patterns and diffusion neural networks, lyrics alignment, and user interfaces for patterns as part of [Polifonia](https://polifonia-project.eu/). Now pursuing PhD research at University X, Germany.
 
 
-## Current team
+## Current research team
 
 * [Danny Diamond](https://dannydiamond.ie/), research MSc student in University of Galway, working on pattern discovery in traditional Irish dance music as part of [Polifonia](https://polifonia-project.eu/). Co-supervised with Mathieu d'Aquin, LORIA Lab, Université de Lorraine, France.
 * [Fitria Wulandari](https://fitriaramlan.github.io/Portfolio/), PhD student in University of Galway, working on genetic programming and symbolic regression, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/).
@@ -46,8 +46,8 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 * [Róisín (Jiaolin) Luo](https://scholar.google.com/citations?hl=en&user=X33n9mAAAAAJ), PhD researcher in University of Galway working on robustness of neural network models, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/). Co-supervised with Prof. Colm O'Riordan.
 * [Chloe Dalton](https://www.linkedin.com/in/chloe-dalton-b87747206/), PhD researcher in University of Galway and in Ward & Burke Construction Ltd., working on data science and machine learning for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by SFI. Co-supervised with Prof. Eoghan Clifford, Civil Engineering, University of Galway.
 * [Alaz Okudan](https://scholar.google.com/citations?user=0UXcs0kAAAAJ), PhD researcher in the Centre for Creative Technologies in the College of Arts, University of Galway, working on aesthetics and AI. Co-supervised by Prof. Padraic Killeen, College of Arts, University of Galway.
-* Joao Duarte, PhD researcher in Dublin City University, working on physically-informed sound synthesis. Co-supervised with Prof. Seán O'Leary, Dublin City University.
-* Rory Sweeney, Research Assistant on the Polifonia project (working on UIs for exploring patterns in music), and then on the Insight II Platform project (working on detecting patterns in music).
+* [Joao Duarte](https://d-real.ie/portfolio-item/joao-duarte/), PhD researcher in Dublin City University, working on physically-informed sound synthesis. Co-supervised with Prof. Seán O'Leary, Dublin City University.
+* [Rory Sweeney](https://www.linkedin.com/in/rory-sweeney-3985448a/?originalSubdomain=ie), Research Assistant on the Polifonia project (working on UIs for exploring patterns in music), and then on the Insight II Platform project (working on detecting patterns in music).
 
 
 ## Code
