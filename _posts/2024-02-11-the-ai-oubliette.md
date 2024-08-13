@@ -4,6 +4,8 @@ layout: post
 tags: artificial_intelligence
 ---
 
+# The AI Oubliette
+
 An oubliette is a type of prison where you throw people to suffer and die, and forget about them.
 
 I think AI Safety is pretty important. I usually interpret AI Safety to be about preventing accidental catastrophic loss of control to AIs (which includes x-risk). And some people are quite relaxed about that, in the sense of "don't worry, it won't happen".
