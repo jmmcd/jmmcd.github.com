@@ -1,5 +1,7 @@
 ---
 title: The AI Oubliette
+layout: post
+tags: artificial_intelligence
 ---
 
 An oubliette is a type of prison where you throw people to suffer and die, and forget about them.
