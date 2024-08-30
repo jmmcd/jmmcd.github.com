@@ -1,7 +1,7 @@
 ---
 title: The Doctor's Dilemma
-author: James McDermott
-date: 2024/04/29
+layout: post
+tags: game_theory
 ---
 
 When everyone is healthy, a doctor can't make money. Therefore, doctors have an incentive to do Bad Medicine in order to keep the population at least partly sick. 
