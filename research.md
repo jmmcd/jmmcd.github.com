@@ -47,7 +47,7 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 * [Chloe Dalton](https://www.linkedin.com/in/chloe-dalton-b87747206/), PhD researcher in University of Galway and in Ward & Burke Construction Ltd., working on data science and machine learning for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by SFI. Co-supervised with Prof. Eoghan Clifford, Civil Engineering, University of Galway.
 * [Alaz Okudan](https://scholar.google.com/citations?user=0UXcs0kAAAAJ), PhD researcher in the Centre for Creative Technologies in the College of Arts, University of Galway, working on aesthetics and AI. Co-supervised with Prof. Padraic Killeen, College of Arts, University of Galway.
 * [Joao Duarte](https://d-real.ie/portfolio-item/joao-duarte/), PhD researcher in Dublin City University, working on physically-informed sound synthesis. Co-supervised with Prof. Seán O'Leary, Dublin City University.
-* [Rory Sweeney](https://www.linkedin.com/in/rory-sweeney-3985448a/?originalSubdomain=ie), Research Assistant on the Polifonia project (working on UIs for exploring patterns in music), and then on the Insight II Platform project (working on detecting patterns in music).
+* [Rory Sweeney](https://www.linkedin.com/in/rory-sweeney-3985448a/?originalSubdomain=ie), Research Assistant on the Insight II Platform project (working on detecting patterns in music) and previously the Polifonia project (working on UIs for exploring patterns in music).
 
 
 ## Code
