@@ -6,21 +6,17 @@ permalink: /me.html
 
 <div id="logo">&nbsp;</div>
 
-I'm a researcher in program synthesis, metaheuristic optimisation, machine learning, and
-computational creativity. I also write music and I write programs that
-write music.
+I'm a researcher in artificial intelligence - program synthesis, metaheuristic optimisation, machine learning, and computational creativity. I also write music and I write programs that write music.
 
-I'm a lecturer in the School of Computer Science in the College of Science and Engineering, University of Galway, in the west of Ireland. I teach mostly on the MSc in Data Analytics and MSc in Artificial Intelligence (classroom and online), and I'm the Programme Director for the [MSc in Artificial Intelligence (Online)](https://www.universityofgalway.ie/courses/taught-postgraduate-courses/online-artificial-intelligence.html). 
+I'm a senior lecturer in the School of Computer Science in the College of Science and Engineering, University of Galway, in the west of Ireland. I teach mostly at post-grad level, in particular in programming for AI, optimisation, and deep learning. I'm also School Director of Research & Graduate Studies. 
 
 I'm interested in supervising/mentoring researchers at undergrad, MSc, PhD, or post-doc level. Please see
-[my research interests](/research.html) and contact me with a CV if
-interested.
+[my research interests](/research.html) and contact me with a CV if interested. But please show how your area of research is aligned with mine.
 
 
 I've previously worked and studied at:
 
-* University of Galway (then known as University College Galway and later the National University of Ireland, Galway) (BSc in computer science
-and mathematics);
+* University of Galway (then known as University College Galway and later the National University of Ireland, Galway) (BSc in computer science and mathematics);
 
 * Hewlett-Packard, Galway, Ireland (automated install and system
 management for supercomputers, at the time the fastest in the world);
