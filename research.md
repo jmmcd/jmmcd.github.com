@@ -24,7 +24,6 @@ funding are sometimes available. Please contact me with a CV if interested, but 
 
 * [My Google Scholar profile](https://scholar.google.com/citations?user=nKNOv8oAAAAJ&hl=en)
 * [My ORCID](http://orcid.org/0000-0002-1402-6995)
-* [My reviews in Publons](https://publons.com/author/402776/james-mcdermott)
 
 ## Former students and researchers
 
@@ -36,19 +35,19 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 * [Michael Mescal](https://www.irishtimes.com/business/technology/en-perium-makes-life-a-lot-easier-for-building-professionals-1.3328762) worked on integrating building performance with generative design, graduated PhD, UCD, 2023, co-supervised with Prof. Beth Shotton, UCD. Moved on to work in ATU Architecture.
 * [Abdul Shahid](https://scholar.google.com/citations?user=gOjuEUgAAAAJ&hl=en&oi=ao), post-doc researcher in University of Galway, working on knowledge graphs as part of [Polifonia](https://polifonia-project.eu/). Moved on to work as a lecturer in National College of Ireland.
 * [Pushkar Jajoria](https://ch.linkedin.com/in/pushkar-jajoria), was Research Assistant in University of Galway, working on drum patterns and diffusion neural networks, lyrics alignment, and user interfaces for patterns as part of [Polifonia](https://polifonia-project.eu/). Moved on to pursue PhD research at University of Saarbrucken, Germany.
-* [Danny Diamond](https://dannydiamond.ie/), research MSc student in University of Galway, working on pattern discovery in traditional Irish dance music as part of [Polifonia](https://polifonia-project.eu/). Co-supervised with Mathieu d'Aquin, LORIA Lab, Université de Lorraine, France. Continuing performance and teaching https://dannydiamond.ie/bio/. 
+* [Danny Diamond](https://dannydiamond.ie/), research MSc student in University of Galway, working on pattern discovery in traditional Irish dance music as part of [Polifonia](https://polifonia-project.eu/). Co-supervised with Mathieu d'Aquin, LORIA Lab, Université de Lorraine, France. Continuing performance and teaching.
+* [Róisín (Jiaolin) Luo](https://scholar.google.com/citations?hl=en&user=X33n9mAAAAAJ), PhD researcher in University of Galway working on robustness of neural network models, as part of the [Research Ireland Centre for Research Training in AI](https://www.crt-ai.ie/). Co-supervised with Prof. Colm O'Riordan. Now pursuing postdoctoral research in agent-based systems, deep learning, and climate, with Prof. Karyn Morrissey, School of Business and Economics, University of Galway.
 
 ## Current research team
 
 
 * [Fitria Wulandari](https://fitriaramlan.github.io/Portfolio/), PhD student in University of Galway, working on genetic programming and symbolic regression, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/).
-* [Maziar Kanani](https://soundcloud.com/maziar-kanani), PhD student in University of Galway, working on generative music with algorithmic information theory approaches and program synthesis, as part of the [SFI D-REAL Centre for Research Training ](https://d-real.ie/). Co-supervised with Prof. Seán O'Leary, Dublin City University.
-* [Róisín (Jiaolin) Luo](https://scholar.google.com/citations?hl=en&user=X33n9mAAAAAJ), PhD researcher in University of Galway working on robustness of neural network models, as part of the [SFI Centre for Research Training in AI](https://www.crt-ai.ie/). Co-supervised with Prof. Colm O'Riordan.
+* [Maziar Kanani](https://soundcloud.com/maziar-kanani), PhD student in University of Galway, working on generative music with algorithmic information theory approaches and program synthesis, as part of the [SFI D-REAL Centre for Research Training ](https://d-real.ie/). Co-supervised with Dr. Seán O'Leary, Dublin City University.
 * [Chloe Dalton](https://www.linkedin.com/in/chloe-dalton-b87747206/), PhD researcher in University of Galway and in Ward & Burke Construction Ltd., working on data science and machine learning for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by Research Ireland. Co-supervised with Prof. Eoghan Clifford, Civil Engineering, University of Galway.
 * [Rory Sweeney](https://www.linkedin.com/in/rory-sweeney-3985448a/?originalSubdomain=ie), PhD researcher in University of Galway, working on genetic programming for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by Research Ireland. Co-supervised with Dr. Takfarinas Saber, School of Computer Science and Prof. Eoghan Clifford, Civil Engineering, University of Galway. Previously Research Assistant on the Insight II Platform project (working on detecting patterns in music) and previously the Polifonia project (working on UIs for exploring patterns in music).
 * [Ronan Timon](https://www.linkedin.com/in/ronan-timon-687a71217/), Research Assistant in University of Galway, working on time-series analysis for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by Research Ireland.
 * [Vikrant Singh Jamwal](https://www.linkedin.com/in/vikrant-singh-jamwal/?originalSubdomain=ie) Research Assistant in University of Galway, working on data analysis and anomaly detection for optimisation and real-time control of wastewater treatment plants, as part of a project funded by Ward & Burke Construction Ltd. and co-funded by Research Ireland.
-* [Alaz Okudan](https://scholar.google.com/citations?user=0UXcs0kAAAAJ), PhD researcher in the Centre for Creative Technologies in the College of Arts, University of Galway, working on aesthetics and AI. Co-supervised with Prof. Padraic Killeen, College of Arts, University of Galway.
+* [Alaz Okudan](https://scholar.google.com/citations?user=0UXcs0kAAAAJ), PhD researcher in the Centre for Creative Technologies in the College of Arts, University of Galway, working on aesthetics and AI. Co-supervised with Dr. Padraic Killeen, School of English, Media and Creative Arts, University of Galway.
 * [Joao Duarte](https://d-real.ie/portfolio-item/joao-duarte/), PhD researcher in Dublin City University, working on physically-informed sound synthesis. Co-supervised with Prof. Seán O'Leary, Dublin City University.
 
 
