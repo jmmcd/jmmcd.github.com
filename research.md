@@ -56,7 +56,7 @@ I was lucky to be the supervisor, co-supervisor, or mentor of the following exce
 This site contains code for some of my projects, and for other
 projects code and information is available elsewhere:
 
-* [Anemone Interactive Evolutionary Computation (art and music)][http://www.jmmcd.net/Anemone/]
+* [Anemone Interactive Evolutionary Computation (art and music)](http://www.jmmcd.net/Anemone/)
 * [GP Distances](https://github.com/jmmcd/GPDistance)
 * [PonyGE](http://ponyge.googlecode.com)
 * [GP Benchmarks](http://gpbenchmarks.org/)

@@ -12,7 +12,7 @@ I write music (rock, electronic):
 
 And I write programs that write music:
 
-* [Anemone Interactive Evolutionary Computation (art and music)][http://www.jmmcd.net/Anemone/]
+* [Anemone Interactive Evolutionary Computation (art and music)](http://www.jmmcd.net/Anemone/)
 * [Drum pattern interpolation with neural networks](https://www.youtube.com/watch?v=3kzbQI2LiOk)
 * XG, a generative music project
   * [Code](https://github.com/jmmcd/XG)
